@@ -1,0 +1,32 @@
+"Updater"
+{
+	"Information"
+	{
+		"Version"
+		{
+			"Latest"	  "1.5"
+      "Previous"  "1.4"
+		}
+		
+		"Notes"	"More info on the BDF Steam group page."
+	}
+	
+	"Files"
+	{
+		"Plugin"	"Path_SM/plugins/sxpm.smx"
+		//"Source"	"Path_SM/scripting/sxpm.sp"
+    "Plugin"	"Path_SM/translations/chi/sxpm.phrases.txt"
+    "Plugin"	"Path_SM/translations/da/sxpm.phrases.txt"
+    "Plugin"	"Path_SM/translations/de/sxpm.phrases.txt"
+    "Plugin"	"Path_SM/translations/el/sxpm.phrases.txt"
+    "Plugin"	"Path_SM/translations/es/sxpm.phrases.txt"
+    "Plugin"	"Path_SM/translations/fi/sxpm.phrases.txt"
+    "Plugin"	"Path_SM/translations/fr/sxpm.phrases.txt"
+    "Plugin"	"Path_SM/translations/it/sxpm.phrases.txt"
+    "Plugin"	"Path_SM/translations/jp/sxpm.phrases.txt"
+    "Plugin"	"Path_SM/translations/no/sxpm.phrases.txt"
+    "Plugin"	"Path_SM/translations/ru/sxpm.phrases.txt"
+    "Plugin"	"Path_SM/translations/sv/sxpm.phrases.txt"
+    "Plugin"	"Path_SM/translations/sxpm.phrases.txt"
+	}
+}
