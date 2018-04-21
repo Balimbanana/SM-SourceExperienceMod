@@ -13,7 +13,7 @@
 	
 	"Files"
 	{
-		"Plugin"	"Path_SM/plugins/sxpm.smx"
+		//"Plugin"	"Path_SM/plugins/sxpm.smx"
 		//"Source"	"Path_SM/scripting/sxpm.sp"
 		"Plugin"	"Path_SM/translations/chi/sxpm.phrases.txt"
 		"Plugin"	"Path_SM/translations/da/sxpm.phrases.txt"
