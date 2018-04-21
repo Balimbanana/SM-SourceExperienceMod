@@ -1,0 +1,278 @@
+"Phrases"
+{
+	"LevelUp"
+	{
+		"#format"		"{1:i},{2:i}"
+		"en"			"You have reached level {1}/{2}"
+	}	
+
+	"Points To Spend"
+	{
+		"#format"		"{1:i}"
+		"en"			"You have {1} points to spend."
+	}	
+
+	"PrintInf1"
+	{
+		"#format"		"{1:i},{2:i},{3:i},{4:i},{5:i}"
+		"en"			"Experience: {1}/{2}\nLevel: {3}/{4}\nSkill Points: {5}\n"
+	}
+
+	"PrintInf2"
+	{
+		"#format"		"{1:i},{2:i},{3:i},{4:i},{5:i}"
+		"en"			"(1)Strength points: {1}/400\n(2)Armor points: {2}/450\n(3)Regeneration: {3}/300\n(4)Nano Armor: {4}/300\n(5)Ammo Regeneration: {5}/30\n"
+	}
+
+	"PrintInf3"
+	{
+		"#format"		"{1:i},{2:s},{3:i},{4:i},{5:i}"
+		"en"			"(6)Anti Gravity: {1}/40\n(7){2}: {3}/80\n(8)TeamPower: {4}/60\n(9)Block: {5}/140"
+	}
+		
+	"PrintInfAll"
+	{
+		"#format"		"{1:i},{2:i},{3:i},{4:i},{5:i},{6:i},{7:i},{8:i},{9:i},{10:i},{11:i},{12:s},{13:i},{14:i},{15:i}"
+		"en"			"Experience: {1}/{2}\nLevel: {3}/{4}\nSkill Points: {5}\n(1)Strength points: {6}/400\n(2)Armor points: {7}/450\n(3)Regeneration: {8}/300\n(4)Nano Armor: {9}/300\n(5)Ammo Regeneration: {10}/30\n(6)Anti Gravity: {11}/40\n(7){12}: {13}/80\n(8)TeamPower: {14}/60\n(9)Block: {15}/140"
+	}
+
+	"inf1"
+	{
+		"en"			"/playerskills - displays your players skills.\n/playerlevels - displays all players levels and TeamPower.\n/selectskills - displays level up menu.\n"
+	}
+
+	"inf2"
+	{
+		"en"			"/spendpoints 1 10 - spends 10 points into Strength.\n/removepoints 1 10 - removes 10 points from Strength.\n/resetskills - resets all skills to 0 and returns the points put in them.\n"
+	}
+
+	"inf3"
+	{
+		"en"			"/hudmsg r g b - sets hud message colors.\n/skillsinfo - displays skill descriptions in console."
+	}
+
+	"PlayerLevels"
+	{
+		"#format"		"{1:s},{2:i},{3:i}"
+		"en"			"{1}: Level: {2}, TeamPower: {3}"
+	}
+	
+	"Strength"
+	{
+		"en"			"Strength"
+	}
+	
+	"Armor"
+	{
+		"en"			"Superior Armor"
+	}
+	
+	"HealthRegen"
+	{
+		"en"			"Health Regeneration"
+	}
+	
+	"NanoArmor"
+	{
+		"en"			"Nano Armor"
+	}
+	
+	"AmmoReg"
+	{
+		"en"			"Ammo Regeneration"
+	}
+	
+	"AntiGrav"
+	{
+		"en"			"Anti Gravity Device"
+	}
+	
+	"Speed"
+	{
+		"en"			"Speed Increase"
+	}
+	
+	"Awareness"
+	{
+		"en"			"Awareness"
+	}
+	
+	"TeamPower"
+	{
+		"en"			"Team Power"
+	}
+	
+	"Block"
+	{
+		"en"			"Block Attack"
+	}
+
+	"MaxedSkills"
+	{
+		"#format"		"{1:s}"
+		"en"			"Your {1} is maxed."
+	}
+
+	"IncreasedSkills"
+	{
+		"#format"		"{1:s},{2:i},{3:i}"
+		"en"			"You have increased {1} by {2} to {3}."
+	}
+
+	"MaxXP"
+	{
+		"en"			"You have reached the max EXP per map."
+	}
+	
+	"LevelUpSelectSkill"
+	{
+		"en"			"Level Up, select the skill you want to increase:"
+	}
+	
+	"hud1"
+	{
+		"#format"		"{1:i},{2:i},{3:i},{4:i}"
+		"en"			"Level: {1}/{2}\nExperience: {3}/{4}\n"
+	}
+	
+	"UnspentPoints"
+	{
+		"#format"		"{1:i}"
+		"en"			"Unspent Skill Points: {1}"
+	}
+	
+	"hudload"
+	{
+		"en"			"Level: LOADING\nExperience: LOADING"
+	}
+	
+	"infstr"
+	{
+		"en"			"Strength (max level 400): Start health + Strength-Level + (Strength * Awareness / 100)"
+	}
+	
+	"infarm"
+	{
+		"en"			"Superior Armor (max level 450): Start armor + Armor-Level + (Armor * Awareness / 100)"
+	}
+	
+	"infreg"
+	{
+		"en"			"Health Regeneration (max level 300): A chance to get 1-3 HP every second where 300 is every second"
+	}
+	
+	"infnreg"
+	{
+		"en"			"Nano Armor (max level 300): A chance to get 1-5 Armor every second where 300 is every second"
+	}
+	
+	"infammo"
+	{
+		"en"			"Ammunition Regeneration (max level 30): Gives random ammo every 33-Ammolevel seconds"
+	}
+	
+	"infgrav"
+	{
+		"en"			"Anti Gravity Device (max level 40): Lowers your gravity while jumping by: 1 - (0.8 * AntiGravLevel/40)"
+	}
+	
+	"infsped"
+	{
+		"en"			"Speed increase (max level 80): If 1 is real speed: 1 + 1 * SpeedLevel/80"
+	}
+	
+	"infawar"
+	{
+		"en"			"Awareness (max level 80): Increases other skills in a small way, replaces speed"
+	}
+	
+	"inftpow"
+	{
+		"en"			"TeamPower (max level 60): Increases health and armor for you and your teammates"
+	}
+	
+	"infblck"
+	{
+		"en"			"Block Attack (max level 140): Every time you are hit, there is a chance between BlockLevel and 300 to be invincible."
+	}
+	
+	"summonlvlreq"
+	{
+		"#format"		"{1:i}"
+		"en"			"You must be level {1} or higher to use this skill."
+	}
+	
+	"summoncd"
+	{
+		"#format"		"{1:i}"
+		"en"			"You must wait {1} seconds before you can re-summon."
+	}
+	
+	"summonalive"
+	{
+		"#format"		"{1:s}"
+		"en"			"Your {1} is still alive. Press again to unsummon."
+	}
+	
+	"summoned"
+	{
+		"#format"		"{1:s}"
+		"en"			"You have summoned a {1}."
+	}
+	
+	"summonspacechk"
+	{
+		"#format"		"{1:s}"
+		"en"			"Not enough space to summon {1}."
+	}
+	
+	"summonres"
+	{
+		"#format"		"{1:s}"
+		"en"			"You cannot summon a {1} on this map."
+	}
+	
+	"summondied"
+	{
+		"#format"		"{1:s}"
+		"en"			"Your {1} died."
+	}
+	
+	"totalexp"
+	{
+		"#format"		"{1:i}"
+		"en"			"Your current total EXP: {1}"
+	}
+	
+	"givelevelsyntax"
+	{
+		"en"			"/givelevel <client to give to> <levels to give>"
+	}
+	
+	"cannotgivetoself"
+	{
+		"en"			"Cannot give to yourself."
+	}
+	
+	"levellowerthancur"
+	{
+		"en"			"Current level lower than what you are giving."
+	}
+	
+	"givenexp"
+	{
+		"#format"		"{1:i},{2:s}"
+		"en"			"You have been given {1} EXP from {2}"
+	}
+	
+	"takenexp"
+	{
+		"#format"		"{1:i},{2:s}"
+		"en"			"You have given {1} EXP to {2}"
+	}
+	
+	"AntigravDisabled"
+	{
+		"en"			"Antigravity is disabled on this map by the server."
+	}
+}

@@ -1,0 +1,257 @@
+"Phrases"
+{
+	"LevelUp"
+	{
+		"it"			"Hai raggiunto il livello {1}/{2}"
+	}	
+
+	"Points To Spend"
+	{
+		"it"			"Hai {1} punti da spendere."
+	}	
+
+	"PrintInf1"
+	{
+		"it"			"Esperienza: {1}/{2}\nLivello: {3}/{4}\nAbilità punti: {5}\n"
+	}
+
+	"PrintInf2"
+	{
+		"it"			"(1)Forza punti: {1}/400\n(2)Armatura punti: {2}/450\n(3)Rigenerazione: {3}/300\n(4)Nano Armatura: {4}/300\n(5)Munizioni Rigenerazione: {5}/30\n"
+	}
+
+	"PrintInf3"
+	{
+		"it"			"(6)Anti Gravità: {1}/40\n(7){2}: {3}/80\n(8)PotereSquadra: {4}/60\n(9)Blocca: {5}/140"
+	}
+		
+	"PrintInfAll"
+	{
+		"it"			"Esperienza: {1}/{2}\nLivello: {3}/{4}\nAbilità punti: {5}\n(1)Forza punti: {6}/400\n(2)Armatura punti: {7}/450\n(3)Rigenerazione: {8}/300\n(4)Nano Armatura: {9}/300\n(5)Munizioni Rigenerazione:{10}/30\n(6)Anti Gravità: {11}/40\n(7){12}: {13}/80\n(8)PotereSquadra: {14}/60\n(9)Blocca: {15}/140"
+	}
+
+	"inf1"
+	{
+		"it"			"/playerskills - visualizza le tue abilità.\n/playerlevels - visualizza tutti i livelli dei giocatori e del PotereSquadra.\n/selectskills - visualizza il menu di livello.\n"
+	}
+
+	"inf2"
+	{
+		"it"			"/spendpoints 1 10 - spende 10 punti in Forza.\n/removepoints 1 10 - rimuove 10 punti dalla forza.\n/resetskills - reimposta tutte le abilità a 0 e restituisce i punti inseriti.\n"
+	}
+
+	"inf3"
+	{
+		"it"			"/hudmsg r g b - imposta i colori dei messaggi hud.\n/skillsinfo - visualizza le descrizioni delle abilità nella console."
+	}
+
+	"PlayerLevels"
+	{
+		"it"			"{1}: Livello: {2}, PotereSquadra: {3}"
+	}
+	
+	"Strength"
+	{
+		"it"			"Forza"
+	}
+	
+	"Armor"
+	{
+		"it"			"Armatura superiore"
+	}
+	
+	"HealthRegen"
+	{
+		"it"			"Rigenerazione salute"
+	}
+	
+	"NanoArmor"
+	{
+		"it"			"Nano Armatura"
+	}
+	
+	"AmmoReg"
+	{
+		"it"			"Munizioni Rigenerazione"
+	}
+	
+	"AntiGrav"
+	{
+		"it"			"Dispositivo Anti Gravità "
+	}
+	
+	"Speed"
+	{
+		"it"			"Aumento di Velocità"
+	}
+	
+	"Awareness"
+	{
+		"it"			"Coscienza"
+	}
+	
+	"TeamPower"
+	{
+		"it"			"Potere Squadra"
+	}
+	
+	"Block"
+	{
+		"it"			"Blocca Attacco"
+	}
+
+	"MaxedSkills"
+	{
+		"it"			"Il tuo {1} è al massimo."
+	}
+
+	"IncreasedSkills"
+	{
+		"it"			"Hai aumentato {1} da {2} a {3}."
+	}
+
+	"MaxXP"
+	{
+		"it"			"Hai raggiunto il massimo EXP per mappa."
+	}
+	
+	"LevelUpSelectSkill"
+	{
+		"it"			"Livello su, selezionare l'abilità che si desidera aumentare:"
+	}
+	
+	"hud1"
+	{
+		"it"			"Livello: {1}/{2}\nEsperienza: {3}/{4}\n"
+	}
+	
+	"UnspentPoints"
+	{
+		"it"			"Punti di Abilità non Spesi: {1}"
+	}
+	
+	"hudload"
+	{
+		"it"			"Livello: LOADING\nEsperienza: CARICAMENTO"
+	}
+	
+	"infstr"
+	{
+		"it"			"Forza (max livello 400): Inizio salute + Forza-Livello + (Forza * Coscienza / 100)"
+	}
+	
+	"infarm"
+	{
+		"it"			"Armatura Superiore (max livello 450): Inizio armatura + Armatura-Livello + (Armatura * Coscienza / 100)"
+	}
+	
+	"infreg"
+	{
+		"it"			"Salute Rigenerazione (max livello 300): Una possibilità di ottenere 1-3 HP ogni secondo dove 300 sono ogni secondo"
+	}
+	
+	"infnreg"
+	{
+		"it"			"Nano Armatura (max livello 300): Una possibilità di ottenere 1-5 Armature al secondo in cui 300 sono ogni secondo"
+	}
+	
+	"infammo"
+	{
+		"it"			"Cartucce Rigenerazione (max livello 30): Fornisce munizioni casuali ogni 33-MunizioniLivello secondi"
+	}
+	
+	"infgrav"
+	{
+		"it"			"Dispositivo Anti Gravità  (max livello 40): Riduce la gravità mentre salti di: 1 - (0.8 * AntiGravLivello / 40)"
+	}
+	
+	"infsped"
+	{
+		"it"			"Aumento Velocità (max livello 80): Se 1 è la velocità reale: 1 + (1 * LivelloVelocità / 80)"
+	}
+	
+	"infawar"
+	{
+		"it"			"Coscienza (max livello 80): Aumenta le altre abilità in un modo piccolo, sostituisce la velocità"
+	}
+	
+	"inftpow"
+	{
+		"it"			"PotereSquadra (max livello 60): Aumenta la salute e l'armatura per te e per i tuoi compagni di squadra"
+	}
+	
+	"infblck"
+	{
+		"it"			"Blocca Attacco (max livello 140): Ogni volta che vieni colpito, c'è una possibilità tra BloccaLivello e 300 di essere invincibile."
+	}
+	
+	"summonlvlreq"
+	{
+		"it"			"Devi essere di livello {1} o superiore per usare questa abilità."
+	}
+	
+	"summoncd"
+	{
+		"it"			"Devi aspettare {1} secondi prima che tu possa richiamare nuovamente."
+	}
+	
+	"summonalive"
+	{
+		"it"			"Il tuo {1} è ancora vivo. Premi di nuovo su non-invocare."
+	}
+	
+	"summoned"
+	{
+		"it"			"Hai invocato un {1}."
+	}
+	
+	"summonspacechk"
+	{
+		"it"			"Spazio insufficiente per invocare {1}."
+	}
+	
+	"summonres"
+	{
+		"it"			"Non puoi invocare un {1} su questa mappa."
+	}
+	
+	"summondied"
+	{
+		"it"			"Il tuo {1} è morto."
+	}
+	
+	"totalexp"
+	{
+		"it"			"Il tuo EXP totale attuale: {1}"
+	}
+	
+	"givelevelsyntax"
+	{
+		"it"			"/givelevel <cliente da dare a> <livelli da dare>"
+	}
+	
+	"cannotgivetoself"
+	{
+		"it"			"Non puoi dare a te stesso."
+	}
+	
+	"levellowerthancur"
+	{
+		"it"			"Livello attuale inferiore a quello che stai dando."
+	}
+	
+	"givenexp"
+	{
+		"it"			"Ti è stato dato {1} EXP a {2}"
+	}
+	
+	"takenexp"
+	{
+		"it"			"Hai dato {1} EXP a {2}"
+	}
+	
+	"AntigravDisabled"
+	{
+		"it"			"Anti Gravità è disabilitato su questa mappa dal server."
+	}
+}

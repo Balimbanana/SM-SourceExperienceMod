@@ -1,0 +1,252 @@
+﻿"Phrases"
+{
+	"LevelUp"
+	{
+		"de"			"Sie haben Niveau erreicht {1}/{2}"
+	}	
+
+	"Points To Spend"
+	{
+		"de"			"Sie haben {1} Punkte zu verbringen."
+	}	
+
+	"PrintInf1"
+	{
+		"de"			"Erfahrung: {1}/{2}\nEbene: {3}/{4}\nErfahrungspunkte: {5}\n"
+	}
+
+	"PrintInf2"
+	{
+		"de"			"(1)Stärkepunkte: {1}/400\n(2)Rüstung Punkte: {2}/450\n(3)Regeneration: {3}/300\n(4)Nano-Rüstung: {4}/300\n(5)Munition Regeneration: {5}/30\n"
+	}
+
+	"PrintInf3"
+	{
+		"de"			"(6)Anti Schwerkraft: {1}/40\n(7){2}: {3}/80\n(8)Mannschaft-Leistung: {4}/60\n(9)Block: {5}/140"
+	}
+		
+	"PrintInfAll"
+	{
+		"de"			"Erfahrung: {1}/{2}\nEbene: {3}/{4}\nErfahrungspunkte: {5}\n(1)Stärkepunkte: {6}/400\n(2)Rüstung Punkte: {7}/450\n(3)Regeneration: {8}/300\n(4)Nano-Rüstung: {9}/300\n(5)Munition Regeneration: {10}/30\n(6)Anti Schwerkraft: {11}/40\n(7){12}: {13}/80\n(8)Team-Leistung: {14}/60\n(9)Block: {15}/140"
+	}
+
+	"inf1"
+	{
+		"de"			"/playerskills - zeigt Ihre Spieler Fähigkeiten.\n/playerlevels - zeigt alle Ebenen und Team-Power-Spieler.\n/selectskills - Pegelanzeige Menü.\n"
+	}
+
+	"inf2"
+	{
+		"de"			"/spendpoints 1 10 - verbringt 10 Punkte in Kraft.\n/removepoints 1 10 - Entfernt 10 Punkte aus Stärke.\n/resetskills - setzt alle Fähigkeiten auf 0 und gibt die in ihnen stecken Punkte.\n"
+	}
+
+	"inf3"
+	{
+		"de"			"/hudmsg r g b - setzt hud Nachricht Farben.\n/skillsinfo - zeigt Skillbeschreibungen in der Konsole."
+	}
+
+	"PlayerLevels"
+	{
+		"de"			"{1}: Ebene: {2}, Team-Leistung: {3}"
+	}
+	
+	"Strength"
+	{
+		"de"			"Stärke"
+	}
+	
+	"Armor"
+	{
+		"de"			"Superior-Rüstung"
+	}
+	
+	"HealthRegen"
+	{
+		"de"			"Gesundheitsregeneration"
+	}
+	
+	"NanoArmor"
+	{
+		"de"			"Nano-Rüstung"
+	}
+	
+	"AmmoReg"
+	{
+		"de"			"Munition Regeneration"
+	}
+	
+	"AntiGrav"
+	{
+		"de"			"Anti Schwerkraft"
+	}
+	
+	"Speed"
+	{
+		"de"			"Geschwindigkeit erhöhen"
+	}
+	
+	"Awareness"
+	{
+		"de"			"Das Bewusstsein"
+	}
+	
+	"TeamPower"
+	{
+		"de"			"Team-Leistung"
+	}
+	
+	"Block"
+	{
+		"de"			"Block-Angriff"
+	}
+
+	"MaxedSkills"
+	{
+		"de"			"Ihre {1} ist maxed."
+	}
+
+	"IncreasedSkills"
+	{
+		"de"			"Sie haben {1} von {2} auf {3} erhöht."
+	}
+
+	"MaxXP"
+	{
+		"de"			"Sie haben die maximale Erfahrung pro Karte erreicht."
+	}
+	
+	"LevelUpSelectSkill"
+	{
+		"de"			"Stufe nach oben, wählen Sie die Fähigkeit, die Sie erhöhen möchten:"
+	}
+	
+	"hud1"
+	{
+		"de"			"Ebene: {1}/{2}\nErfahrung: {3}/{4}\n"
+	}
+	
+	"UnspentPoints"
+	{
+		"de"			"Nicht ausgegebene Fertigkeitspunkte: {1}"
+	}
+	
+	"infstr"
+	{
+		"de"			"Stärke (max Stufe 400): Start Gesundheit + Strength-Stufe + (Stärke * Bewusstsein / 100)"
+	}
+	
+	"infarm"
+	{
+		"de"			"Superior-Rüstung (max Stufe 450): Starter Rüstung + Rüstung-Stufe + (Rüstung * Bewusstsein / 100)"
+	}
+	
+	"infreg"
+	{
+		"de"			"Gesundheitsregeneration  (max Stufe 300): Eine Chance, 1-5 HP jede Sekunde, wo 300 ist jede Sekunde"
+	}
+	
+	"infnreg"
+	{
+		"de"			"Nano Rüstung (max Stufe 300): Eine Chance 1-5 Rüstung jede Sekunde zu bekommen, wo 300 jede Sekunde ist"
+	}
+	
+	"infammo"
+	{
+		"de"			"Munition Regeneration (max Stufe 30): Gibt zufällige Munition alle 33-Munition Ebene Sekunden"
+	}
+	
+	"infgrav"
+	{
+		"de"			"Antischwerkraft-Gerät (max Stufe 40): Senkt Ihre Schwerkraft  beim Springen von: 1 - (0,8 * anti Schwere Stufe / 40)"
+	}
+	
+	"infsped"
+	{
+		"de"			"Geschwindigkeitserhöhung (max Stufe 80): Bei 1 ist reale Geschwindigkeit: 1 + 1 * Geschwindigkeitsstufe / 80"
+	}
+	
+	"infawar"
+	{
+		"de"			"Bewusstsein (max Stufe 80): Erhöht andere Fähigkeiten in einem kleinen Weg, ersetzt Geschwindigkeit"
+	}
+	
+	"inftpow"
+	{
+		"de"			"Mannschaft leistung (max Stufe 60): Erhöht die Gesundheit und Rüstung für Sie und Ihre Mitspieler"
+	}
+	
+	"infblck"
+	{
+		"de"			"Block-Angriff (max Stufe 140): Jedes Mal, wenn Sie betroffen sind, gibt es eine Chance, zwischen Blockebene und 300 unbesiegbar zu sein."
+	}
+	
+	"summonlvlreq"
+	{
+		"de"			"Du musst Stufe {1} oder höher haben, um diese Fertigkeit zu verwenden."
+	}
+	
+	"summoncd"
+	{
+		"de"			"Sie müssen {1} Sekunden warten, bevor Sie wiederbeschwören können."
+	}
+	
+	"summonalive"
+	{
+		"de"			"Ihr {1} ist noch am Leben. Drücken Sie erneut, um sich zu beschwören."
+	}
+	
+	"summoned"
+	{
+		"de"			"Du hast eine {1} beschworen."
+	}
+	
+	"summonspacechk"
+	{
+		"de"			"Nicht genügend Platz zum Beschwören {1}."
+	}
+	
+	"summonres"
+	{
+		"de"			"Du kannst auf dieser Karte keine {1} beschwören."
+	}
+	
+	"summondied"
+	{
+		"de"			"Ihr {1} ist gestorben."
+	}
+	
+	"totalexp"
+	{
+		"de"			"Deine aktuelle Gesamt-EXP: {1}"
+	}
+	
+	"givelevelsyntax"
+	{
+		"de"			"/givelevel <Mandant geben> <Levels geben>"
+	}
+	
+	"cannotgivetoself"
+	{
+		"de"			"Kann sich nicht geben."
+	}
+	
+	"levellowerthancur"
+	{
+		"de"			"Aktuelle Stufe niedriger als das, was Sie geben."
+	}
+	
+	"givenexp"
+	{
+		"de"			"Sie haben {1} EXP von {2} erhalten."
+	}
+	
+	"takenexp"
+	{
+		"de"			"Sie haben {1} EXP an {2} vergeben."
+	}
+	
+	"AntigravDisabled"
+	{
+		"de"			"Antischwerkraft-Gerät ist auf dieser Karte vom Server deaktiviert."
+	}
+}

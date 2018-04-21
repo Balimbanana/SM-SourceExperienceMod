@@ -1,0 +1,252 @@
+﻿"Phrases"
+{
+	"LevelUp"
+	{
+		"sv"			"Du har nått nivå {1}/{2}"
+	}	
+
+	"Points To Spend"
+	{
+		"sv"			"Du har {1} poäng att spendera."
+	}	
+
+	"PrintInf1"
+	{
+		"sv"			"Erfarenhet: {1}/{2}\nNivå: {3}/{4}\nFärdighetspoäng: {5}\n"
+	}
+
+	"PrintInf2"
+	{
+		"sv"			"(1)Styrkepunkter: {1}/400\n(2)Pansar punkter: {2}/450\n(3)Regeneration: {3}/300\n(4)Nano Rustning: {4}/300\n(5)Ammo Regeneration: {5}/30\n"
+	}
+
+	"PrintInf3"
+	{
+		"sv"			"(6)Anti Gravitation: {1}/40\n(7){2}: {3}/80\n(8)Laget Ström: {4}/60\n(9)Blockera: {5}/140"
+	}
+		
+	"PrintInfAll"
+	{
+		"sv"			"Erfarenhet: {1}/{2}\nNivå: {3}/{4}\nFärdighetspoäng: {5}\n(1)Styrkepunkter: {6}/400\n(2)Pansar punkter: {7}/450\n(3)Regeneration: {8}/300\n(4)Nano Rustning: {9}/300\n(5)Ammo Regeneration: {10}/30\n(6)Anti Gravitation: {11}/40\n(7){12}: {13}/80\n(8)Laget Ström: {14}/60\n(9)Blockera: {15}/140"
+	}
+
+	"inf1"
+	{
+		"sv"			"/playerskills - visar dina spelare färdigheter.\n/playerlevels - visar alla spelare nivåer och Laget Ström.\n/selectskills - bildskärmar nivå menyn.\n"
+	}
+
+	"inf2"
+	{
+		"sv"			"/spendpoints 1 10 - spenderar 10 poäng i styrka.\n/removepoints 1 10 - avlägsnar 10 poäng från klarhet.\n/resetskills - återställer  alla färdigheter till 0 och returnerar punkter in i dem.\n"
+	}
+
+	"inf3"
+	{
+		"sv"			"/hudmsg r g b - sätter HUD meddelandefärger.\n/skillsinfo - visar kompetensbeskrivning i konsolen."
+	}
+
+	"PlayerLevels"
+	{
+		"sv"			"{1}: Nivå: {2}, Laget Ström: {3}"
+	}
+	
+	"Strength"
+	{
+		"sv"			"Styrka"
+	}
+	
+	"Armor"
+	{
+		"sv"			"överlägsen Pansar"
+	}
+	
+	"HealthRegen"
+	{
+		"sv"			"Hälsa Regenerering"
+	}
+	
+	"NanoArmor"
+	{
+		"sv"			"Nano Rustning"
+	}
+	
+	"AmmoReg"
+	{
+		"sv"			"Ammo Regenerering"
+	}
+	
+	"AntiGrav"
+	{
+		"sv"			"Anti Gravitationsanordning"
+	}
+	
+	"Speed"
+	{
+		"sv"			"Hastighetsökning"
+	}
+	
+	"Awareness"
+	{
+		"sv"			"Medvetenhet"
+	}
+	
+	"TeamPower"
+	{
+		"sv"			"Laget Ström"
+	}
+	
+	"Block"
+	{
+		"sv"			"Blockera ge sig på"
+	}
+
+	"MaxedSkills"
+	{
+		"sv"			"Din {1} är maxade."
+	}
+
+	"IncreasedSkills"
+	{
+		"sv"			"Du har ökat {1} av {2} till {3}."
+	}
+
+	"MaxXP"
+	{
+		"sv"			"Du har nått max erfarenhet per karta."
+	}
+	
+	"LevelUpSelectSkill"
+	{
+		"sv"			"Nivå upp, väljer färdighet du vill öka:"
+	}
+	
+	"hud1"
+	{
+		"sv"			"Nivå: {1}/{2}\nErfarenhet: {3}/{4}\n"
+	}
+	
+	"UnspentPoints"
+	{
+		"sv"			"Oanvända Färdighetspoäng: {1}"
+	}
+	
+	"infstr"
+	{
+		"sv"			"Styrka (maxnivå 400): Starta hälsa + styrka nivå + (styrka * medvetenhet / 100)"
+	}
+	
+	"infarm"
+	{
+		"sv"			"överlägsen rustning (maxnivå 450): Start rustning + rustning nivå + (rustning * medvetenhet / 100)"
+	}
+	
+	"infreg"
+	{
+		"sv"			"Hälsa regenerering (maxnivå 300): En chans att få 1-5 HP varannan där 300 är varje sekund"
+	}
+	
+	"infnreg"
+	{
+		"sv"			"Nano rustning (maxnivå 300): En chans att få 1-5 Armor varannan där 300 är varje sekund"
+	}
+	
+	"infammo"
+	{
+		"sv"			"Ammunition Regenerering (maxnivå 30): Ger slumpmässig ammunition var 33-ammo nivå sekunder"
+	}
+	
+	"infgrav"
+	{
+		"sv"			"Anti gravitation enhet (maxnivå 40): Sänker din allvar när man tränar med: 1 - (0,8 * Anti gravitation Nivå / 40)"
+	}
+	
+	"infsped"
+	{
+		"sv"			"Hastighetsökning  (maxnivå 80): Om en är verkliga hastigheten: 1 + 1 * hastighetsnivå  / 80"
+	}
+	
+	"infawar"
+	{
+		"sv"			"Medvetenhet (maxnivå 80): Ökar andra färdigheter i en liten sätt, ersätter hastighet"
+	}
+	
+	"inftpow"
+	{
+		"sv"			"Laget Ström (maxnivå 60): Ökar hälsa och rustning för dig och dina lagkamrater"
+	}
+	
+	"infblck"
+	{
+		"sv"			"Blockera ge sig på (maxnivå 140): Varje gång du drabbas, finns det en chans mellan blocknivå  och 300 att vara oövervinnelig."
+	}
+	
+	"summonlvlreq"
+	{
+		"sv"			"Du måste vara nivå {1} eller högre för att använda denna färdighet."
+	}
+	
+	"summoncd"
+	{
+		"sv"			"Du måste vänta {1} sekunder innan du kan åter kalla."
+	}
+	
+	"summonalive"
+	{
+		"sv"			"Din {1} är fortfarande lever. Tryck på igen för att undgå det."
+	}
+	
+	"summoned"
+	{
+		"sv"			"Du har kallats en {1}."
+	}
+	
+	"summonspacechk"
+	{
+		"sv"			"Inte tillräckligt med utrymme för att kalla {1}."
+	}
+	
+	"summonres"
+	{
+		"sv"			"Du kan inte kalla en {1} på denna karta."
+	}
+	
+	"summondied"
+	{
+		"sv"			"Din {1} dog."
+	}
+	
+	"totalexp"
+	{
+		"sv"			"Din nuvarande totala EXP: {1}"
+	}
+	
+	"givelevelsyntax"
+	{
+		"sv"			"/givelevel <klient att ge till> <nivåer för att ge>"
+	}
+	
+	"cannotgivetoself"
+	{
+		"sv"			"Kan inte ge dig själv."
+	}
+	
+	"levellowerthancur"
+	{
+		"sv"			"Nuvarande nivå lägre än vad du ger."
+	}
+	
+	"givenexp"
+	{
+		"sv"			"Du har fått {1} EXP från {2}"
+	}
+	
+	"takenexp"
+	{
+		"sv"			"Du har gett {1} EXP till {2}"
+	}
+	
+	"AntigravDisabled"
+	{
+		"sv"			"Anti gravitation är inaktiverad på denna karta av servern."
+	}
+}

@@ -1,0 +1,252 @@
+﻿"Phrases"
+{
+	"LevelUp"
+	{
+		"fi"			"Olet saavuttanut tason {1}/{2}"
+	}	
+
+	"Points To Spend"
+	{
+		"fi"			"Sinulla on {1} pistettä viettää."
+	}	
+
+	"PrintInf1"
+	{
+		"fi"			"Kokea: {1}/{2}\nTaso: {3}/{4}\ntaitopisteitä: {5}\n"
+	}
+
+	"PrintInf2"
+	{
+		"fi"			"(1)vahvuus pistettä: {1}/400\n(2)Panssari pistettä: {2}/450\n(3)uudistuminen: {3}/300\n(4)nano panssari: {4}/300\n(5)ammuksia uudistaminen: {5}/30\n"
+	}
+
+	"PrintInf3"
+	{
+		"fi"			"(6)antigravitaatio: {1}/40\n(7){2}: {3}/80\n(8)joukkue teho: {4}/60\n(9)Lohko: {5}/140"
+	}
+		
+	"PrintInfAll"
+	{
+		"fi"			"Kokea: {1}/{2}\nTaso: {3}/{4}\ntaitoa pistettä: {5}\n(1)vahvuus pistettä: {6}/400\n(2)Panssari pistettä: {7}/450\n(3)uudistuminen: {8}/300\n(4)nano panssari: {9}/300\n(5)ammuksia uudistaminen: {10}/30\n(6)antigravitaatio: {11}/40\n(7){12}: {13}/80\n(8)joukkue teho: {14}/60\n(9)Lohko: {15}/140"
+	}
+
+	"inf1"
+	{
+		"fi"			"/playerskills - näyttää pelaajien taidot.\n/playerlevels - näyttää kaikki pelaajat tasoilla ja joukkue teho.\n/selectskills - näytöt tason ylöspäin valikossa.\n"
+	}
+
+	"inf2"
+	{
+		"fi"			"/spendpoints 1 10 - kuluttaa 10 pistettä osaksi Vahvuus.\n/removepoints 1 10 - poistaa 10 pistettä maasta Vahvuus.\n/resetskills - palauttaa kaikkien taitoja 0 ja palauttaa pistettä laittaa ne.\n"
+	}
+
+	"inf3"
+	{
+		"fi"			"/hudmsg r g b - asettaa hud viesti värejä.\n/skillsinfo - näyttää taito kuvaukset konsolissa."
+	}
+
+	"PlayerLevels"
+	{
+		"fi"			"{1}: Taso: {2}, joukkue teho: {3}"
+	}
+	
+	"Strength"
+	{
+		"fi"			"vahvuus"
+	}
+	
+	"Armor"
+	{
+		"fi"			"superior panssari"
+	}
+	
+	"HealthRegen"
+	{
+		"fi"			"terveys uudistaminen"
+	}
+	
+	"NanoArmor"
+	{
+		"fi"			"nano panssari"
+	}
+	
+	"AmmoReg"
+	{
+		"fi"			"ammuksia uudistaminen"
+	}
+	
+	"AntiGrav"
+	{
+		"fi"			"anti painovoima laite"
+	}
+	
+	"Speed"
+	{
+		"fi"			"nopeus kasvaa"
+	}
+	
+	"Awareness"
+	{
+		"fi"			"tietoisuus"
+	}
+	
+	"TeamPower"
+	{
+		"fi"			"joukkue teho"
+	}
+	
+	"Block"
+	{
+		"fi"			"lohko hyökkäys"
+	}
+
+	"MaxedSkills"
+	{
+		"fi"			"Sinun {1} on maxed."
+	}
+
+	"IncreasedSkills"
+	{
+		"fi"			"Olet kasvanut {1} mukaan {2} ja {3}."
+	}
+
+	"MaxXP"
+	{
+		"fi"			"Olet saavuttanut max kokemus per kartta."
+	}
+	
+	"LevelUpSelectSkill"
+	{
+		"fi"			"tasolle asti, valitse taito haluat lisätä:"
+	}
+	
+	"hud1"
+	{
+		"fi"			"Taso: {1}/{2}\nKokea: {3}/{4}\n"
+	}
+	
+	"UnspentPoints"
+	{
+		"fi"			"Unspent Skill pistettä: {1}"
+	}
+	
+	"infstr"
+	{
+		"fi"			"Vahvuus (max taso 400): Aloita terveys + Vahvuus tason + (Vahvuus * tietoisuus / 100)"
+	}
+	
+	"infarm"
+	{
+		"fi"			"Superior panssari (max taso 450): Starter panssari + panssari tason + (haarniska * tietoisuus / 100)"
+	}
+	
+	"infreg"
+	{
+		"fi"			"terveys uudistaminen (max taso 300): Mahdollisuus saada 1-5 HP joka toinen missä 300 on joka toinen"
+	}
+	
+	"infnreg"
+	{
+		"fi"			"nano panssari (max taso 300): Mahdollisuus saada 1-5 panssarin joka toinen missä 300 on joka toinen"
+	}
+	
+	"infammo"
+	{
+		"fi"			"Ammukset uudistaminen (max taso 30): Antaa satunnainen ammuksia jokaista 33-ammuksia tason sekuntia"
+	}
+	
+	"infgrav"
+	{
+		"fi"			"anti painovoima laite (max taso 40): laskee painovoiman kun hyppy by: 1 - (0,8 * anti painovoima taso / 40)"
+	}
+	
+	"infsped"
+	{
+		"fi"			"Nopeus kasvaa (max taso 80): Jos 1 on todellinen nopeus: 1 + 1 * nopeus taso / 80"
+	}
+	
+	"infawar"
+	{
+		"fi"			"Tietoisuus (max taso 80) kohonneita muita taitoja pienessä tavalla korvaa nopeus"
+	}
+	
+	"inftpow"
+	{
+		"fi"			"joukkue teho (max taso 60): Kasvattaa terveys ja haarniska sinulle ja joukkuetovereiden"
+	}
+	
+	"infblck"
+	{
+		"fi"			"lohko hyökkäys (max taso 140): Joka kerta olet osuma, on olemassa mahdollisuus välillä lohkon tasolla ja 300 olevan voittamaton."
+	}
+	
+	"summonlvlreq"
+	{
+		"fi"			"Sinun täytyy olla tason {1} tai korkeampi käyttää tätä taitoa."
+	}
+	
+	"summoncd"
+	{
+		"fi"			"Odota, {1} sekuntia ennen voit uudelleen kutsua."
+	}
+	
+	"summonalive"
+	{
+		"fi"			"Sinun {1} on yhä elossa. Paina uudelleen ei-mulle."
+	}
+	
+	"summoned"
+	{
+		"fi"			"Olette kutsui {1}."
+	}
+	
+	"summonspacechk"
+	{
+		"fi"			"Ei tarpeeksi tilaa kutsua {1}."
+	}
+	
+	"summonres"
+	{
+		"fi"			"Et voi kutsua {1} tällä kartalla."
+	}
+	
+	"summondied"
+	{
+		"fi"			"Sinun {1} kuoli."
+	}
+	
+	"totalexp"
+	{
+		"fi"			"Nykyinen koko EXP: {1}"
+	}
+	
+	"givelevelsyntax"
+	{
+		"fi"			"/givelevel <asiakas antaa>> <tasot antaa>"
+	}
+	
+	"cannotgivetoself"
+	{
+		"fi"			"Et voi antaa itsellesi."
+	}
+	
+	"levellowerthancur"
+	{
+		"fi"			"Nykyinen taso on alhaisempi kuin mitä annat."
+	}
+	
+	"givenexp"
+	{
+		"fi"			"Sinulle on annettu {1} EXP {2}"
+	}
+	
+	"takenexp"
+	{
+		"fi"			"Olet antanut {1} EXP: n {2}"
+	}
+	
+	"AntigravDisabled"
+	{
+		"fi"			"Palvelimen avulla antigravity on poistettu käytöstä tällä kartalla."
+	}
+}

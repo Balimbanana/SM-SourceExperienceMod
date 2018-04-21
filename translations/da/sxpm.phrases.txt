@@ -1,0 +1,252 @@
+﻿"Phrases"
+{
+	"LevelUp"
+	{
+		"da"			"Du har nået niveau {1}/{2}"
+	}	
+
+	"Points To Spend"
+	{
+		"da"			"Du har {1} peger at bruge."
+	}	
+
+	"PrintInf1"
+	{
+		"da"			"Erfaring: {1}/{2}\nNiveau: {3}/{4}\nStyrke punkter: {5}\n"
+	}
+
+	"PrintInf2"
+	{
+		"da"			"(1)styrke punkter: {1}/400\n(2)Rustning punkter: {2}/450\n(3)regenerering: {3}/300\n(4)Nano rustning: {4}/300\n(5)Ammo regenerering: {5}/30\n"
+	}
+
+	"PrintInf3"
+	{
+		"da"			"(6)Antigravitation: {1}/40\n(7){2}: {3}/80\n(8)Hold magt: {4}/60\n(9)Blok: {5}/140"
+	}
+		
+	"PrintInfAll"
+	{
+		"da"			"Erfaring: {1}/{2}\nNiveau: {3}/{4}\nStyrke punkter: {5}\n(1)styrke punkter: {6}/400\n(2)Rustning punkter: {7}/450\n(3)regenerering: {8}/300\n(4)Nano rustning: {9}/300\n(5)Ammo regenerering: {10}/30\n(6)Antigravitation: {11}/40\n(7){12}: {13}/80\n(8)Hold magt: {14}/60\n(9)Blok: {15}/140"
+	}
+
+	"inf1"
+	{
+		"da"			"/playerskills - viser dine spillere færdigheder.\n/playerlevels - viser alle spillere niveauer og hold magt.\n/selectskills - displays niveau op-menuen.\n"
+	}
+
+	"inf2"
+	{
+		"da"			"/spendpoints 1 10 - tilbringer 10 point i styrke.\n/removepoints 1 10 - fjerner 10 point fra styrke.\n/resetskills - nulstiller alle færdigheder til 0 og returnerer de punkter sat i dem.\n"
+	}
+
+	"inf3"
+	{
+		"da"			"/hudmsg r g b - sætter HUD besked farver.\n/skillsinfo - viser færdighed beskrivelser i konsollen."
+	}
+
+	"PlayerLevels"
+	{
+		"da"			"{1}: Niveau: {2}, hold magt: {3}"
+	}
+	
+	"Strength"
+	{
+		"da"			"Styrke"
+	}
+	
+	"Armor"
+	{
+		"da"			"Overlegen Rustning"
+	}
+	
+	"HealthRegen"
+	{
+		"da"			"Sundhed Regenerering"
+	}
+	
+	"NanoArmor"
+	{
+		"da"			"Nano Rustning"
+	}
+	
+	"AmmoReg"
+	{
+		"da"			"Ammo Regenerering"
+	}
+	
+	"AntiGrav"
+	{
+		"da"			"Antigravitation Enhed"
+	}
+	
+	"Speed"
+	{
+		"da"			"hastighed Stigning"
+	}
+	
+	"Awareness"
+	{
+		"da"			"Opmærksomhed"
+	}
+	
+	"TeamPower"
+	{
+		"da"			"Hold magt"
+	}
+	
+	"Block"
+	{
+		"da"			"Blok Angreb"
+	}
+
+	"MaxedSkills"
+	{
+		"da"			"Din {1} er maxed."
+	}
+
+	"IncreasedSkills"
+	{
+		"da"			"Du har øget {1} af {2} til {3}."
+	}
+
+	"MaxXP"
+	{
+		"da"			"Du har nået det maksimale oplevelse per kort."
+	}
+	
+	"LevelUpSelectSkill"
+	{
+		"da"			"Niveau op, skal du vælge de færdigheder du ønsker at øge:"
+	}
+	
+	"hud1"
+	{
+		"da"			"Niveau: {1}/{2}\nErfaring: {3}/{4}\n"
+	}
+	
+	"UnspentPoints"
+	{
+		"da"			"Ubrugte dygtighed punkter: {1}"
+	}
+	
+	"infstr"
+	{
+		"da"			"Styrke (max niveau 400): Start sundhed + Styrke-niveau + (styrke * bevidsthed / 100)"
+	}
+	
+	"infarm"
+	{
+		"da"			"overlegen rustning (max niveau 450): Starter rustning + panser-niveau + (rustning * bevidsthed / 100)"
+	}
+	
+	"infreg"
+	{
+		"da"			"Sundhed regenerering (max niveau 300): En chance for at få 1-5 HP hvert sekund, hvor 300 er hver anden"
+	}
+	
+	"infnreg"
+	{
+		"da"			"Nano rustning (max niveau 300): En chance for at få 1-5 rustning hvert sekund, hvor 300 er hver anden"
+	}
+	
+	"infammo"
+	{
+		"da"			"Ammunition Regenerering (max niveau 30): Giver tilfældig ammo hver 33-Ammo niveau sekunder"
+	}
+	
+	"infgrav"
+	{
+		"da"			"Antigravitation enhed (max niveau 40): Sænker din tyngdekraft samtidig med at hoppe af: 1 - (0,8 * Antigravitation niveau / 40)"
+	}
+	
+	"infsped"
+	{
+		"da"			"Hastighed stigning (max niveau 80): Hvis en er reel hastighed: 1 + 1 * hastighedsniveau / 80"
+	}
+	
+	"infawar"
+	{
+		"da"			"bevidsthed (max niveau 80): Øger andre færdigheder i en lille måde, erstatter hastighed"
+	}
+	
+	"inftpow"
+	{
+		"da"			"Hold Magt (max level 60): Øger sundhed og rustning for dig og dine holdkammerater"
+	}
+	
+	"infblck"
+	{
+		"da"			"Blok Angreb (max niveau 140): Hver gang du bliver ramt, er der en chance mellem blok niveau og 300 at være uovervindelig."
+	}
+	
+	"summonlvlreq"
+	{
+		"da"			"Du skal være niveau {1} eller højere for at bruge denne færdighed."
+	}
+	
+	"summoncd"
+	{
+		"da"			"Du skal vente {1} sekunder, før du kan re-tilkalde."
+	}
+	
+	"summonalive"
+	{
+		"da"			"Din {1} er stadig i live. Tryk igen for at undvige."
+	}
+	
+	"summoned"
+	{
+		"da"			"Du har indkaldt en {1}."
+	}
+	
+	"summonspacechk"
+	{
+		"da"			"Ikke nok plads til at indkalde {1}."
+	}
+	
+	"summonres"
+	{
+		"da"			"Du kan ikke tilkalde en {1} på dette kort."
+	}
+	
+	"summondied"
+	{
+		"da"			"Din {1} døde."
+	}
+	
+	"totalexp"
+	{
+		"da"			"Din nuværende samlede EXP: {1}"
+	}
+	
+	"givelevelsyntax"
+	{
+		"da"			"/givelevel <klient til at give til> <niveauer at give>"
+	}
+	
+	"cannotgivetoself"
+	{
+		"da"			"Kan ikke give til dig selv."
+	}
+	
+	"levellowerthancur"
+	{
+		"da"			"Nuværende niveau lavere end det du giver."
+	}
+	
+	"givenexp"
+	{
+		"da"			"Du har fået {1} EXP fra {2}"
+	}
+	
+	"takenexp"
+	{
+		"da"			"Du har givet {1} EXP til {2}"
+	}
+	
+	"AntigravDisabled"
+	{
+		"da"			"Antigravitation er deaktiveret på dette kort af serveren."
+	}
+}

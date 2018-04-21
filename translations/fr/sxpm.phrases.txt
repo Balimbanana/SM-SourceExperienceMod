@@ -1,0 +1,256 @@
+﻿"Phrases"
+{
+	"LevelUp"
+	{
+		"fr"			"Vous avez atteint le niveau {1}/{2}"
+	}	
+
+	"Points To Spend"
+	{
+		"fr"			"Vous avez {1} points à dépenser."
+	}	
+
+	"PrintInf1"
+	{
+		"fr"			"De l'expérience: {1}/{2}\nNiveau: {3}/{4}\nPoints de compétences: {5}\n"
+	}
+
+	"PrintInf2"
+	{
+		"fr"			"(1)points de force: {1}/400\n(2)points d'Armure: {2}/450\n(3)Régénération: {3}/300\n(4)Nano Armure: {4}/300\n(5)Munitions régénération: {5}/30\n"
+	}
+
+	"PrintInf3"
+	{
+		"fr"			"(6)Anti-gravité: {1}/40\n(7){2}: {3}/80\n(8)Puissance de l'équipe: {4}/60\n(9)Bloque: {5}/140"
+	}
+		
+	"PrintInfAll"
+	{
+		"fr"			"De l'expérience: {1}/{2}\nNiveau: {3}/{4}\nPoints de compétences: {5}\n(1)points de force: {6}/400\n(2)points d'Armure: {7}/450\n(3)Régénération: {8}/300\n(4)Nano Armure: {9}/300\n(5)Munitions régénération: {10}/30\n(6)Anti-gravité: {11}/40\n(7){12}: {13}/80\n(8)Puissance de l'équipe: {14}/60\n(9)Bloque: {15}/140"
+	}
+
+	"inf1"
+	{
+		"fr"			"/playerskills - affiche vos compétences joueurs .\n/playerlevels - affiche tous les niveaux des joueurs et de la Puissance de l'équipe.\n/selectskills - affiche le niveau menu.\n"
+	}
+
+	"inf2"
+	{
+		"fr"			"/spendpoints 1 10 - passe 10 points en Force.\n/removepoints 1 10 - supprime 10 points de Force.\n/resetskills - réinitialise toutes les compétences à 0 et renvoie des points mis en eux.\n"
+	}
+
+	"inf3"
+	{
+		"fr"			"/hudmsg r g b - Défini la couleur des messages hud.\n/skillsinfo - affiche les descriptions de compétences dans la console."
+	}
+
+	"PlayerLevels"
+	{
+		"fr"			"{1}: Niveau: {2}, Puissance de l'équipe: {3}"
+	}
+	
+	"Strength"
+	{
+		"fr"			"Force"
+	}
+	
+	"Armor"
+	{
+		"fr"			"Armure supérieure"
+	}
+	
+	"HealthRegen"
+	{
+		"fr"			"Régénération de la santé"
+	}
+	
+	"NanoArmor"
+	{
+		"fr"			"Nano Armure"
+	}
+	
+	"AmmoReg"
+	{
+		"fr"			"Munitions régénération"
+	}
+	
+	"AntiGrav"
+	{
+		"fr"			"Dispositif Anti-Gravité"
+	}
+	
+	"Speed"
+	{
+		"fr"			"Augmenter la vitesse"
+	}
+	
+	"Awareness"
+	{
+		"fr"			"Conscience"
+	}
+	
+	"TeamPower"
+	{
+		"fr"			"Puissance de l'équipe"
+	}
+	
+	"Block"
+	{
+		"fr"			"Bloc Attaque"
+	}
+
+	"MaxedSkills"
+	{
+		"fr"			"Votre {1} est maximisé."
+	}
+
+	"IncreasedSkills"
+	{
+		"fr"			"Vous avez augmenté {1} de {2} à {3}."
+	}
+
+	"MaxXP"
+	{
+		"fr"			"Vous avez atteint l'expérience maximale par carte."
+	}
+	
+	"LevelUpSelectSkill"
+	{
+		"fr"			"Niveau supérieur, sélectionnez la compétence que vous souhaitez augmenter:"
+	}
+	
+	"hud1"
+	{
+		"fr"			"Niveau: {1}/{2}\nDe l'expérience: {3}/{4}\n"
+	}
+	
+	"UnspentPoints"
+	{
+		"fr"			"Points de compétence non dépensés: {1}"
+	}
+	
+	"hudload"
+	{
+		"fr"			"Niveau: CHARGEMENT\nExpérience: CHARGEMENT"
+	}	
+	"infstr"
+	{
+		"fr"			"Force (niveau max 400): Lancer la santé + Force niveau + (Force * Conscience / 100)"
+	}
+	
+	"infarm"
+	{
+		"fr"			"Armure supérieure (niveau max 450): armure Starter + Armure-Level + (Armure * Conscience / 100)"
+	}
+	
+	"infreg"
+	{
+		"fr"			"La régénération de la santé (niveau max 300): Une chance d'obtenir 1-5 HP chaque seconde où 300 est chaque seconde"
+	}
+	
+	"infnreg"
+	{
+		"fr"			"Nano Armure (max niveau 300): Une chance d'obtenir 1-5 Armure chaque seconde où 300 est chaque seconde"
+	}
+	
+	"infammo"
+	{
+		"fr"			"Munitions Régénération (niveau max 30): Donne des munitions au hasard tous les 33-Munitions niveau secondes"
+	}
+	
+	"infgrav"
+	{
+		"fr"			"antigravité périphérique (niveau max 40): Abaisse votre gravité en sautant par: 1 - (0,8 * antigravité niveau / 40)"
+	}
+	
+	"infsped"
+	{
+		"fr"			"Augmentation de la vitesse (niveau max 80): Si 1 est la vitesse réelle: 1 + 1 * Vitesse Niveau / 80"
+	}
+	
+	"infawar"
+	{
+		"fr"			"Conscience (niveau max 80): Augmente les autres compétences dans un petit chemin, remplace la vitesse"
+	}
+	
+	"inftpow"
+	{
+		"fr"			"Puissance de l'équipe (niveau max 60): Augmente la santé et de l'armure pour vous et vos coéquipiers"
+	}
+	
+	"infblck"
+	{
+		"fr"			"Bloc Attaque (niveau max 140): Chaque fois que vous êtes touché, il y a une chance entre le bloc de niveau et 300 d'être invincible."
+	}
+	
+	"summonlvlreq"
+	{
+		"fr"			"Vous devez être de niveau {1} ou plus pour utiliser cette compétence."
+	}
+	
+	"summoncd"
+	{
+		"fr"			"Vous devez attendre {1} secondes avant de pouvoir ré-invoquer."
+	}
+	
+	"summonalive"
+	{
+		"fr"			"Votre {1} est encore en vie. Appuyez à nouveau pour supprimer."
+	}
+	
+	"summoned"
+	{
+		"fr"			"Vous avez invoqué un {1}."
+	}
+	
+	"summonspacechk"
+	{
+		"fr"			"Pas assez d'espace pour appeler {1}."
+	}
+	
+	"summonres"
+	{
+		"fr"			"Vous ne pouvez pas invoquer un {1} sur cette carte."
+	}
+	
+	"summondied"
+	{
+		"fr"			"Votre {1} est mort."
+	}
+	
+	"totalexp"
+	{
+		"fr"			"Votre total actuel EXP: {1}"
+	}
+	
+	"givelevelsyntax"
+	{
+		"fr"			"/givelevel <client à donner à> <niveaux à donner>"
+	}
+	
+	"cannotgivetoself"
+	{
+		"fr"			"Je ne peux pas me donner."
+	}
+	
+	"levellowerthancur"
+	{
+		"fr"			"Niveau actuel inférieur à ce que vous donnez."
+	}
+	
+	"givenexp"
+	{
+		"fr"			"Vous avez reçu {1} EXP à partir de {2}"
+	}
+	
+	"takenexp"
+	{
+		"fr"			"Vous avez donné {1} EXP à {2}"
+	}
+	
+	"AntigravDisabled"
+	{
+		"fr"			"L'antigravité est désactivée sur cette carte par le serveur."
+	}
+}

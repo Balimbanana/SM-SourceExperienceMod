@@ -1,0 +1,252 @@
+﻿"Phrases"
+{
+	"LevelUp"
+	{
+		"es"			"nivel que haya alcanzado {1}/{2}"
+	}	
+
+	"Points To Spend"
+	{
+		"es"			"Tienes {1} apunta a gastar."
+	}	
+
+	"PrintInf1"
+	{
+		"es"			"Experiencia: {1}/{2}\n Nivel: {3}/{4}\nPuntos de habilidad: {5}\n"
+	}
+
+	"PrintInf2"
+	{
+		"es"			"(1)puntos de fuerza: {1}/400\n(2)puntos de armadura: {2}/450\n(3)Regeneración: {3}/300\n(4)Armaduras nano: {4}/300\n(5)Regeneración Munición: {5}/30\n"
+	}
+
+	"PrintInf3"
+	{
+		"es"			"(6)anti de la gravedad: {1}/40\n(7){2}: {3}/80\n(8)Equipo de alimentación: {4}/60\n(9)Bloque:{5}/140"
+	}
+		
+	"PrintInfAll"
+	{
+		"es"			"Experiencia: {1}/{2}\nNivel: {3}/{4}\npuntos de habilidad: {5}\n(1)puntos de fuerza: {6}/400\n(2)puntos de armadura: {7}/450\n(3)Regeneración: {8}/300\n(4)Nano Armor: {9}/300\n(5)Munición Regeneración: {10}/30\n(6)anti de la gravedad: {11}/40\n(7){12}: {13}/80\n(8)Equipo de alimentación: {14}/60\n(9)Bloque: {15}/140"
+	}
+
+	"inf1"
+	{
+		"es"			"/playerskills - muestra sus habilidades de los jugadores.\n/playerlevels - muestra todos los niveles de energía de los jugadores y del equipo.\n/selectskills - visualiza el nivel menú.\n"
+	}
+
+	"inf2"
+	{
+		"es"			"/spendpoints 1 10 - gasta 10 puntos en fuerza.\n/removepoints 1 10 - quita 10 puntos de fuerza.\n/resetskills - restablece todas las habilidades a 0 y devuelve los puntos puestos en ellos.\n"
+	}
+
+	"inf3"
+	{
+		"es"			"/hudmsg r g b - establece los colores de mensajes de HUD.\n/skillsinfo - Muestra descripciones de habilidad en la consola."
+	}
+
+	"PlayerLevels"
+	{
+		"es"			"{1}: Nivel: {2}, Potencia equipo: {3}"
+	}
+	
+	"Strength"
+	{
+		"es"			"Fuerza"
+	}
+	
+	"Armor"
+	{
+		"es"			"Armadura Superior"
+	}
+	
+	"HealthRegen"
+	{
+		"es"			"Regeneración de salud"
+	}
+	
+	"NanoArmor"
+	{
+		"es"			"Armaduras nano"
+	}
+	
+	"AmmoReg"
+	{
+		"es"			"Regeneración munición"
+	}
+	
+	"AntiGrav"
+	{
+		"es"			"Dispositivo anti-gravedad"
+	}
+	
+	"Speed"
+	{
+		"es"			"Aumentar la velocidad"
+	}
+	
+	"Awareness"
+	{
+		"es"			"Conciencia"
+	}
+	
+	"TeamPower"
+	{
+		"es"			"Potencia equipo"
+	}
+	
+	"Block"
+	{
+		"es"			"Ataque de bloque"
+	}
+
+	"MaxedSkills"
+	{
+		"es"			"Tu {1} es máximo."
+	}
+
+	"IncreasedSkills"
+	{
+		"es"			"Ha aumentado {1} de {2} a {3}."
+	}
+
+	"MaxXP"
+	{
+		"es"			"Has alcanzado la experiencia máxima por mapa."
+	}
+	
+	"LevelUpSelectSkill"
+	{
+		"es"			"Nivel superior, seleccione la habilidad desea aumentar:"
+	}
+	
+	"hud1"
+	{
+		"es"			"Nivel: {1}/{2}\nExperiencia: {3}/{4}\n"
+	}
+	
+	"UnspentPoints"
+	{
+		"es"			"Puntos de habilidad no utilizados: {1}"
+	}
+	
+	"infstr"
+	{
+		"es"			"Fuerza (nivel de máximo 400): Comienza la salud + Fuerza Nivel + (Fuerza * conciencia / 100)"
+	}
+	
+	"infarm"
+	{
+		"es"			"Armadura Superior (nivel máximo de 450): Entrante + armadura Armadura Nivel + (Armadura * conciencia / 100)"
+	}
+	
+	"infreg"
+	{
+		"es"			"Regeneración de salud (nivel máximo: 300): Una probabilidad de conseguir 1-5 HP cada segundo, donde 300 es cada segundo"
+	}
+	
+	"infnreg"
+	{
+		"es"			"armaduras nano (nivel máximo: 300): Una probabilidad de conseguir 1-5 armadura cada segundo, donde 300 es cada segundo"
+	}
+	
+	"infammo"
+	{
+		"es"			"Regeneración municiones (nivel máximo 30): Le da munición al azar cada 33 segundos munición nivels"
+	}
+	
+	"infgrav"
+	{
+		"es"			"Dispositivo anti-gravedad (nivel máximo 40): Disminuye su gravedad, mientras que saltar por: 1 - (0,8 * Anti Gravedad Nivel / 40)"
+	}
+	
+	"infsped"
+	{
+		"es"			"aumento de velocidad (nivel máximo 80): Si 1 es la velocidad real: 1 + 1 * Nivel de Velocidad / 80"
+	}
+	
+	"infawar"
+	{
+		"es"			"La conciencia (nivel máximo 80): Aumenta las otras habilidades de una manera pequeña, sustituye a la velocidad"
+	}
+	
+	"inftpow"
+	{
+		"es"			"Potencia del equipo (nivel máximo 60): Aumenta la salud y la armadura para usted y sus compañeros de equipo"
+	}
+	
+	"infblck"
+	{
+		"es"			"ataque bloque (nivel máximo 140): Cada vez que se ven afectados, hay una posibilidad entre el nivel de bloque y 300 para ser invencible."
+	}
+	
+	"summonlvlreq"
+	{
+		"es"			"Usted debe estar al mismo nivel {1} o superior para utilizar esta habilidad."
+	}
+	
+	"summoncd"
+	{
+		"es"			"Debe esperar {1} segundos antes de que pueda volver a convocar."
+	}
+	
+	"summonalive"
+	{
+		"es"			"Su {1} sigue vivo. Presione nuevamente para cancelar la inscripción."
+	}
+	
+	"summoned"
+	{
+		"es"			"Usted ha convocado una {1}."
+	}
+	
+	"summonspacechk"
+	{
+		"es"			"No hay suficiente espacio para convocar {1}."
+	}
+	
+	"summonres"
+	{
+		"es"			"No se puede invocar a un {1} en este mapa."
+	}
+	
+	"summondied"
+	{
+		"es"			"Su {1} muerto."
+	}
+	
+	"totalexp"
+	{
+		"es"			"Su EXP total actual: {1}"
+	}
+	
+	"givelevelsyntax"
+	{
+		"es"			"/givelevel <cliente para dar a> <niveles para dar>"
+	}
+	
+	"cannotgivetoself"
+	{
+		"es"			"No se puede dar a ti mismo."
+	}
+	
+	"levellowerthancur"
+	{
+		"es"			"Nivel actual más bajo que lo que estás dando."
+	}
+	
+	"givenexp"
+	{
+		"es"			"Le dieron {1} EXP de {2}"
+	}
+	
+	"takenexp"
+	{
+		"es"			"Has otorgado {1} EXP a {2}"
+	}
+	
+	"AntigravDisabled"
+	{
+		"es"			"Anti gravedad está desactivado en este mapa por el servidor."
+	}
+}
