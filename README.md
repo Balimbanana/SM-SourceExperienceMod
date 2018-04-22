@@ -5,7 +5,7 @@ The SXPM mod was originally created and abandoned by lilEzek in 2010.
 
 The Source Experience Mod is a mod that allows players to level up by various means. There are 9 skills with one that is toggleable and currently one active skill to summon a manhack.
 
-SXPM has setups to allow for running it on Synergy, HL2:DM, ~Obsidian~, and Insurgency (although most of the menus don't work in Insurgency).
+SXPM has setups to allow for running it on Synergy, HL2:DM, ~Obsidian~, and Insurgency.
 
 Here are the skills:
 
