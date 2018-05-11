@@ -5,7 +5,7 @@ The SXPM mod was originally created and abandoned by lilEzek in 2010.
 
 The Source Experience Mod is a mod that allows players to level up by various means. There are 9 skills with one that is toggleable and currently one active skill to summon a manhack.
 
-SXPM has setups to allow for running it on Synergy, HL2:DM, ~Obsidian~, Insurgency, Day of Infamy, Counter-Strike: Source, Golden Eye: Source, and Dino D-Day.
+SXPM has setups to allow for running it on Synergy, HL2:DM, ~Obsidian~, Insurgency, Day of Infamy, Counter-Strike: Source, Golden Eye: Source, Dino D-Day, Left 4 Dead 2, Team Fortress 2.
 
 Here are the skills:
 
@@ -110,7 +110,7 @@ The number of players in your vicinity is denoted by the number on the bottom le
 `sxpm_storelocal` Enable local database store while connected to an external database for fallback, default is 0
 
 `skill` In most mods, this will set the enemy difficulty. This will also scale XP gain per kill by: 1 = 1.0, 2 = 1.25, 3 = 1.5
-Where 1 is easy, 2 is normal, 3 is hard. Insurgency will use `ins_bot_difficulty` instead.
+Where 1 is easy, 2 is normal, 3 is hard. Insurgency will use `ins_bot_difficulty` instead. L4D2 will use `z_difficulty` instead.
 
 **Map Makers**
 You can place a blank file in modname\maps\sxpmgrav\mapname to block Anti Gravity on your maps if you prefer to not have it.
