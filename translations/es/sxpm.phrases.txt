@@ -249,4 +249,29 @@
 	{
 		"es"			"Anti gravedad está desactivado en este mapa por el servidor."
 	}
+	
+	"WinningTeam"
+	{
+		"es"			"¡Has ganado {1} XP por estar en el equipo ganador!"
+	}
+	
+	"RoundReward"
+	{
+		"es"			"Ganaste {1} XP por obtener uno de los premios redondos."
+	}
+	
+	"RoundComplete"
+	{
+		"es"			"Ganaste {1} XP por completar esta ronda."
+	}
+	
+	"HealedXP"
+	{
+		"es"			"Has ganado {1} XP para sanar {2}"
+	}
+	
+	"CompletedMap"
+	{
+		"es"			"Ganaste {1} XP por completar {2}."
+	}
 }

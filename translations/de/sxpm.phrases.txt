@@ -249,4 +249,29 @@
 	{
 		"de"			"Antischwerkraft-Gerät ist auf dieser Karte vom Server deaktiviert."
 	}
+	
+	"WinningTeam"
+	{
+		"de"			"Du hast {1} EP gewonnen, weil du im Siegerteam warst!"
+	}
+	
+	"RoundReward"
+	{
+		"de"			"Du hast {1} EP für eine der runden Auszeichnungen erhalten."
+	}
+	
+	"RoundComplete"
+	{
+		"de"			"Du hast {1} XP für diese Runde erhalten."
+	}
+	
+	"HealedXP"
+	{
+		"de"			"Du hast {1} EP für Heilung {2} erhalten"
+	}
+	
+	"CompletedMap"
+	{
+		"de"			"Du hast {1} Erfahrungspunkte für das Abschließen von {2} gesammelt."
+	}
 }

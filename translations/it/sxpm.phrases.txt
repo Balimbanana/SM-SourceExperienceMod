@@ -254,4 +254,29 @@
 	{
 		"it"			"Anti Gravità è disabilitato su questa mappa dal server."
 	}
+	
+	"WinningTeam"
+	{
+		"it"			"Hai guadagnato {1} XP per essere nella squadra vincente!"
+	}
+	
+	"RoundReward"
+	{
+		"it"			"Hai guadagnato {1} XP per ottenere uno dei premi del round."
+	}
+	
+	"RoundComplete"
+	{
+		"it"			"Hai guadagnato {1} XP per aver completato questo round."
+	}
+	
+	"HealedXP"
+	{
+		"it"			"Hai guadagnato {1} XP per la guarigione {2}"
+	}
+	
+	"CompletedMap"
+	{
+		"it"			"Hai guadagnato {1} XP per aver completato il {2}."
+	}
 }

@@ -253,4 +253,29 @@
 	{
 		"fr"			"L'antigravité est désactivée sur cette carte par le serveur."
 	}
+	
+	"WinningTeam"
+	{
+		"fr"			"Vous avez gagné {1} XP pour être dans l'équipe gagnante!"
+	}
+	
+	"RoundReward"
+	{
+		"fr"			"Vous avez gagné {1} XP pour obtenir l'un des prix du tour."
+	}
+	
+	"RoundComplete"
+	{
+		"fr"			"Vous avez gagné {1} XP pour avoir terminé ce tour."
+	}
+	
+	"HealedXP"
+	{
+		"fr"			"Vous avez gagné {1} XP pour la guérison {2}"
+	}
+	
+	"CompletedMap"
+	{
+		"fr"			"Vous avez gagné {1} XP pour avoir complété {2}."
+	}
 }

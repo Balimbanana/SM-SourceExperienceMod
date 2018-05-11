@@ -249,4 +249,29 @@
 	{
 		"sv"			"Anti gravitation är inaktiverad på denna karta av servern."
 	}
+	
+	"WinningTeam"
+	{
+		"sv"			"Du fick {1} EXP för att vara på det vinnande laget!"
+	}
+	
+	"RoundReward"
+	{
+		"sv"			"Du fick {1} EXP för att få en av de runda priserna."
+	}
+	
+	"RoundComplete"
+	{
+		"sv"			"Du fick {1} EXP för att slutföra denna runda."
+	}
+	
+	"HealedXP"
+	{
+		"sv"			"Du fick {1} EXP för läkning {2}"
+	}
+	
+	"CompletedMap"
+	{
+		"sv"			"Du fick {1} EXP för att slutföra {2}."
+	}
 }

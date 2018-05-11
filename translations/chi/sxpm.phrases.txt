@@ -249,4 +249,29 @@
 	{
 		"chi"			"服务器在此地图上禁用反引力。"
 	}
+	
+	"WinningTeam"
+	{
+		"chi"			"你获得了{1} XP的胜利！"
+	}
+	
+	"RoundReward"
+	{
+		"chi"			"您获得{1} XP获得全面奖励。"
+	}
+	
+	"RoundComplete"
+	{
+		"chi"			"您获得了{1} XP来完成这一轮。"
+	}
+	
+	"HealedXP"
+	{
+		"chi"			"您获得了{1} XP治疗{2}"
+	}
+	
+	"CompletedMap"
+	{
+		"chi"			"您获得{1} XP完成{2}。"
+	}
 }

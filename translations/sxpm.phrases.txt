@@ -275,4 +275,34 @@
 	{
 		"en"			"Antigravity is disabled on this map by the server."
 	}
+	
+	"WinningTeam"
+	{
+		"#format"		"{1:i}"
+		"en"			"You gained {1} XP for being on the winning team!"
+	}
+	
+	"RoundReward"
+	{
+		"#format"		"{1:i}"
+		"en"			"You gained {1} XP for getting one of the round awards."
+	}
+	
+	"RoundComplete"
+	{
+		"#format"		"{1:i}"
+		"en"			"You gained {1} XP for completing this round."
+	}
+	
+	"HealedXP"
+	{
+		"#format"		"{1:i},{2:s}"
+		"en"			"You gained {1} XP for healing {2}"
+	}
+	
+	"CompletedMap"
+	{
+		"#format"		"{1:i},{2:s}"
+		"en"			"You gained {1} XP for completing {2}."
+	}
 }

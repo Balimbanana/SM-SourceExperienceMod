@@ -249,4 +249,29 @@
 	{
 		"da"			"Antigravitation er deaktiveret på dette kort af serveren."
 	}
+	
+	"WinningTeam"
+	{
+		"da"			"Du har fået {1} XP til at være på det vindende hold!"
+	}
+	
+	"RoundReward"
+	{
+		"da"			"Du har fået {1} XP for at få en af de runde priser."
+	}
+	
+	"RoundComplete"
+	{
+		"da"			"Du har fået {1} XP til at fuldføre denne runde."
+	}
+	
+	"HealedXP"
+	{
+		"da"			"Du har fået {1} XP til helbredelse {2}"
+	}
+	
+	"CompletedMap"
+	{
+		"da"			"Du har fået {1} XP til at fuldføre {2}."
+	}
 }

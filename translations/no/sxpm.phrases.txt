@@ -249,4 +249,29 @@
 	{
 		"no"			"Anti gravitasjon er deaktivert på dette kartet av serveren."
 	}
+	
+	"WinningTeam"
+	{
+		"no"			"Du har fått {1} XP for å være på det vinnende laget!"
+	}
+	
+	"RoundReward"
+	{
+		"no"			"Du har fått {1} XP for å få en av de runde premiene."
+	}
+	
+	"RoundComplete"
+	{
+		"no"			"Du har fått {1} XP for å fullføre denne runden."
+	}
+	
+	"HealedXP"
+	{
+		"no"			"Du har fått {1} XP for helbredelse {2}"
+	}
+	
+	"CompletedMap"
+	{
+		"no"			"Du har fått {1} XP for å fullføre {2}."
+	}
 }

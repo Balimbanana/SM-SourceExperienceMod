@@ -249,4 +249,29 @@
 	{
 		"fi"			"Palvelimen avulla antigravity on poistettu käytöstä tällä kartalla."
 	}
+	
+	"WinningTeam"
+	{
+		"fi"			"Sait {1} XP: n saadaksesi voittajasi!"
+	}
+	
+	"RoundReward"
+	{
+		"fi"			"Sait {1} XP n saadaksesi yhden pyöreän palkinnon."
+	}
+	
+	"RoundComplete"
+	{
+		"fi"			"Sait {1} XP tämän kierroksen loppuun."
+	}
+	
+	"HealedXP"
+	{
+		"fi"			"Sait {1} XP n parantumiseen {2}"
+	}
+	
+	"CompletedMap"
+	{
+		"fi"			"Olet saanut {1} XP n täyttääksesi {2}."
+	}
 }
