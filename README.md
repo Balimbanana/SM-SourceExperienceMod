@@ -109,6 +109,8 @@ The number of players in your vicinity is denoted by the number on the bottom le
 
 `sxpm_storelocal` Enable local database store while connected to an external database for fallback, default is 0
 
+`sxpm_losexpmode` Sets whether or not deaths or suicides will minus XP, 1 is just suicides, 2 is any player deaths, 3 is just team kills, 4 is team kills and suicides, 5 is team kills suicides and regular deaths (but not people who died from team kills), default is 0
+
 `skill` In most mods, this will set the enemy difficulty. This will also scale XP gain per kill by: 1 = 1.0, 2 = 1.25, 3 = 1.5
 Where 1 is easy, 2 is normal, 3 is hard. Insurgency will use `ins_bot_difficulty` instead. L4D2 will use `z_difficulty` instead.
 
