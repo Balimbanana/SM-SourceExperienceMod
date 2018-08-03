@@ -27,7 +27,7 @@
 		
 	"PrintInfAll"
 	{
-		"fi"			"Kokea: {1}/{2}\nTaso: {3}/{4}\ntaitoa pistettä: {5}\n(1)vahvuus pistettä: {6}/400\n(2)Panssari pistettä: {7}/450\n(3)uudistuminen: {8}/300\n(4)nano panssari: {9}/300\n(5)ammuksia uudistaminen: {10}/30\n(6)antigravitaatio: {11}/40\n(7){12}: {13}/80\n(8)joukkue teho: {14}/60\n(9)Lohko: {15}/140"
+		"fi"			"\n{16}\nKokea: {1}/{2}\nTaso: {3}/{4}\ntaitoa pistettä: {5}\n(1)vahvuus pistettä: {6}/400\n(2)Panssari pistettä: {7}/450\n(3)uudistuminen: {8}/300\n(4)nano panssari: {9}/300\n(5)ammuksia uudistaminen: {10}/30\n(6)antigravitaatio: {11}/40\n(7){12}: {13}/80\n(8)joukkue teho: {14}/60\n(9)Lohko: {15}/140"
 	}
 
 	"inf1"

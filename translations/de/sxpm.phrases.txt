@@ -27,7 +27,7 @@
 		
 	"PrintInfAll"
 	{
-		"de"			"Erfahrung: {1}/{2}\nEbene: {3}/{4}\nErfahrungspunkte: {5}\n(1)Stärkepunkte: {6}/400\n(2)Rüstung Punkte: {7}/450\n(3)Regeneration: {8}/300\n(4)Nano-Rüstung: {9}/300\n(5)Munition Regeneration: {10}/30\n(6)Anti Schwerkraft: {11}/40\n(7){12}: {13}/80\n(8)Team-Leistung: {14}/60\n(9)Block: {15}/140"
+		"de"			"\n{16}\nErfahrung: {1}/{2}\nEbene: {3}/{4}\nErfahrungspunkte: {5}\n(1)Stärkepunkte: {6}/400\n(2)Rüstung Punkte: {7}/450\n(3)Regeneration: {8}/300\n(4)Nano-Rüstung: {9}/300\n(5)Munition Regeneration: {10}/30\n(6)Anti Schwerkraft: {11}/40\n(7){12}: {13}/80\n(8)Team-Leistung: {14}/60\n(9)Block: {15}/140"
 	}
 
 	"inf1"
