@@ -99,7 +99,7 @@
 	
 	"TeamPower"
 	{
-		"en"			"Team Power"
+		"en"			"Team Power          "
 	}
 	
 	"Block"
