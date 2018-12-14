@@ -68,6 +68,8 @@ This option is also in the `!sxpm` menu.
 `!givelevel <ClientName> <Amount>` Gives your levels to another player, this is done by what XP it took to get to your current level.
 So if you are level 21 and did `!givelevel Bob 1` It would give Bob the XP it took to get from level 20 to level 21.
 
+`!givexp <ClientName> <Amount>` Gives XP to another player, a different variant of givelevel, you can specify exactly how much XP you want to give, levels will be reduced if you have less than enough in the current level.
+
 **Server CMD's**
 
 `setlvl <CL ID> <Amount>` Sets level by Client ID, this function is blocked while connected to an external DB.
