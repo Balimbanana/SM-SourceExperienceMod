@@ -245,6 +245,11 @@
 		"de"			"Sie haben {1} EXP an {2} vergeben."
 	}
 	
+	"usegivelvls"
+	{
+		"de"			"Verwenden Sie /givelvels, um mehr als 10.000 EXP zu erhalten"
+	}
+	
 	"AntigravDisabled"
 	{
 		"de"			"Antischwerkraft-Gerät ist auf dieser Karte vom Server deaktiviert."

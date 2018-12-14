@@ -245,6 +245,11 @@
 		"es"			"Has otorgado {1} EXP a {2}"
 	}
 	
+	"usegivelvls"
+	{
+		"es"			"Usa /givelevels para dar más de 10K EXP."
+	}
+	
 	"AntigravDisabled"
 	{
 		"es"			"Anti gravedad está desactivado en este mapa por el servidor."

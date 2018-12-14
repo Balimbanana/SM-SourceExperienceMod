@@ -245,6 +245,11 @@
 		"no"			"Du har gitt {1} EXP til {2}"
 	}
 	
+	"usegivelvls"
+	{
+		"no"			"Bruk /givelevels å gi mer enn 10K EXP"
+	}
+	
 	"AntigravDisabled"
 	{
 		"no"			"Anti gravitasjon er deaktivert på dette kartet av serveren."

@@ -249,6 +249,11 @@
 		"fr"			"Vous avez donné {1} EXP à {2}"
 	}
 	
+	"usegivelvls"
+	{
+		"fr"			"Utilisez /givelevels pour donner plus de 10K EXP"
+	}
+	
 	"AntigravDisabled"
 	{
 		"fr"			"L'antigravité est désactivée sur cette carte par le serveur."

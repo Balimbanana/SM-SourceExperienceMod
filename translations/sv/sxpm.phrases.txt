@@ -245,6 +245,11 @@
 		"sv"			"Du har gett {1} EXP till {2}"
 	}
 	
+	"usegivelvls"
+	{
+		"sv"			"Använd /givelevels för att ge mer än 10K EXP"
+	}
+	
 	"AntigravDisabled"
 	{
 		"sv"			"Anti gravitation är inaktiverad på denna karta av servern."

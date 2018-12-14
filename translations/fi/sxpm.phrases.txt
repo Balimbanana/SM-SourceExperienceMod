@@ -245,6 +245,11 @@
 		"fi"			"Olet antanut {1} EXP: n {2}"
 	}
 	
+	"usegivelvls"
+	{
+		"fi"			"Käytä /givelevels antamaan yli 10 K EXP"
+	}
+	
 	"AntigravDisabled"
 	{
 		"fi"			"Palvelimen avulla antigravity on poistettu käytöstä tällä kartalla."

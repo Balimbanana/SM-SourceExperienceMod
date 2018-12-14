@@ -245,6 +245,11 @@
 		"da"			"Du har givet {1} EXP til {2}"
 	}
 	
+	"usegivelvls"
+	{
+		"da"			"Brug /givelevels til at give mere end 10K EXP"
+	}
+	
 	"AntigravDisabled"
 	{
 		"da"			"Antigravitation er deaktiveret på dette kort af serveren."

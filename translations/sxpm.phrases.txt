@@ -249,6 +249,11 @@
 		"en"			"/givelevel <client to give to> <levels to give>"
 	}
 	
+	"giveexpsyntax"
+	{
+		"en"			"/givexp <client to give to> <exp to give>"
+	}
+	
 	"cannotgivetoself"
 	{
 		"en"			"Cannot give to yourself."
@@ -269,6 +274,11 @@
 	{
 		"#format"		"{1:i},{2:s}"
 		"en"			"You have given {1} EXP to {2}"
+	}
+	
+	"usegivelvls"
+	{
+		"en"			"Use /givelevels to give more than 10K EXP"
 	}
 	
 	"AntigravDisabled"

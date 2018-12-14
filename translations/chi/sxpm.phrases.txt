@@ -245,6 +245,11 @@
 		"chi"			"您已将{1} EXP发给{2}"
 	}
 	
+	"usegivelvls"
+	{
+		"chi"			"使用/givelevels可以提供超过10K的EXP"
+	}
+	
 	"AntigravDisabled"
 	{
 		"chi"			"服务器在此地图上禁用反引力。"
