@@ -104,7 +104,7 @@
 	
 	"Block"
 	{
-		"en"			"Block Attack    "
+		"en"			"Block Attack            "
 	}
 
 	"MaxedSkills"
