@@ -64,7 +64,7 @@
 	
 	"Armor"
 	{
-		"en"			"Superior Armor"
+		"en"			"Superior Armor   "
 	}
 	
 	"HealthRegen"
@@ -89,12 +89,12 @@
 	
 	"Speed"
 	{
-		"en"			"Speed Increase"
+		"en"			"Speed Increase   "
 	}
 	
 	"Awareness"
 	{
-		"en"			"Awareness"
+		"en"			"Awareness        "
 	}
 	
 	"TeamPower"
@@ -104,7 +104,7 @@
 	
 	"Block"
 	{
-		"en"			"Block Attack"
+		"en"			"Block Attack    "
 	}
 
 	"MaxedSkills"
