@@ -1,0 +1,292 @@
+"Phrases"
+{
+	"LevelUp"
+	{
+		"pt"			"Você alcançou o nível {1}/{2}"
+	}	
+
+	"Points To Spend"
+	{
+		"pt"			"Você tem {1} pontos para gastar."
+	}	
+
+	"PrintInf1"
+	{
+		"pt"			"Experiência: {1}/{2}\nNível: {3}/{4}\nPontos de habilidade: {5}\n"
+	}
+
+	"PrintInf2"
+	{
+		"pt"			"(1)Pontos de saúde: {1}/400\n(2)Pontos de armadura: {2}/450\n(3)Regeneração: {3}/300\n(4)Armadura Regeneradora: {4}/300\n(5)Regeneração de Munição: {5}/30\n"
+	}
+
+	"PrintInf3"
+	{
+		"pt"			"(6)Anti-gravidade: {1}/40\n(7){2} {3}/80\n(8)Poder da equipe: {4}/60\n(9)Quadra: {5}/140"
+	}
+		
+	"PrintInfAll"
+	{
+		"pt"			"\n{16}\nExperiência: {1}/{2}\nNível: {3}/{4}\nPontos de habilidade: {5}\n(1)Pontos de saúde: {6}/400\n(2)Pontos de armadura: {7}/450\n(3)Regeneração: {8}/300\n(4)Armadura Regeneradora: {9}/300\n(5)Regeneração de Munição: {10}/30\n(6)Anti-gravidade: {11}/40\n(7){12}: {13}/80\n(8)Poder da equipe: {14}/60\n(9)Quadra: {15}/140"
+	}
+
+	"inf1"
+	{
+		"pt"			"/playerskills - exibe as habilidades de seus jogadores.\n/playerlevels - exibe todos os níveis de jogadores e o poder da equipe.\n/selectskills - exibe o menu de subir de nível.\n"
+	}
+
+	"inf2"
+	{
+		"pt"			"/spendpoints 1 10 - gasta 10 pontos em saúde.\n/removepoints 1 10 - remove 10 pontos em Saúde.\n/resetskills - redefine todas as habilidades para 0 e retorna os pontos colocados nelas.\n"
+	}
+
+	"inf3"
+	{
+		"pt"			"/hudmsg r g b - define as cores da mensagem hud.\n/skillsinfo - exibe descrições de habilidades no console."
+	}
+
+	"PlayerLevels"
+	{
+		"pt"			"{1}: Nível: {2}, Poder da equipe: {3}"
+	}
+	
+	"Strength"
+	{
+		"pt"			"Saúde"
+	}
+	
+	"Armor"
+	{
+		"pt"			"Armadura Superior   "
+	}
+	
+	"HealthRegen"
+	{
+		"pt"			"Regeneração da saúde"
+	}
+	
+	"NanoArmor"
+	{
+		"pt"			"armadura regeneradora"
+	}
+	
+	"AmmoReg"
+	{
+		"pt"			"Regeneração de Munição"
+	}
+	
+	"AntiGrav"
+	{
+		"pt"			"Dispositivo anti-gravidade"
+	}
+	
+	"Speed"
+	{
+		"pt"			"Aumento de velocidade   "
+	}
+	
+	"Awareness"
+	{
+		"pt"			"Consciência          "
+	}
+	
+	"TeamPower"
+	{
+		"pt"			"Poder da equipe      "
+	}
+	
+	"Block"
+	{
+		"pt"			"Bloquear ataque         "
+	}
+
+	"MaxedSkills"
+	{
+		"pt"			"Seu {1} está no máximo."
+	}
+
+	"IncreasedSkills"
+	{
+		"pt"			"Você aumentou {1} por {2} para {3}."
+	}
+
+	"MaxXP"
+	{
+		"pt"			"Você atingiu a experiência máxima por mapa."
+	}
+	
+	"LevelUpSelectSkill"
+	{
+		"pt"			"Selecione a habilidade que você quer aumentar:"
+	}
+	
+	"hud1"
+	{
+		"pt"			"Nível: {1}/{2}\nExperiência: {3}/{4}\n"
+	}
+	
+	"UnspentPoints"
+	{
+		"pt"			"Pontos de Perícia Não Usados: {1}"
+	}
+	
+	"hudload"
+	{
+		"pt"			"Nível: CARREGANDO\nExperiência: CARREGANDO"
+	}
+	
+	"infstr"
+	{
+		"pt"			"Saúde (nível máximo 400): Iniciar saúde + Nível de Saúde + (Saúde * Conscientização / 100)"
+	}
+	
+	"infarm"
+	{
+		"pt"			"Armadura Superior (nível máximo 450): Armadura inicial + Nível de Armadura + (Armadura * Consciência / 100)"
+	}
+	
+	"infreg"
+	{
+		"pt"			"Regeneração de Vida (nível máximo 300): Uma chance de obter 1-3 HP a cada segundo, onde 300 é a cada segundo"
+	}
+	
+	"infnreg"
+	{
+		"pt"			"Armadura Regeneradora (nível máximo de 300): Uma chance de obter 1-5 de Armadura a cada segundo, onde 300 são a cada segundo"
+	}
+	
+	"infammo"
+	{
+		"pt"			"Regeneração de Munição (nível máximo 30): Fornece munição aleatória a cada 33-Munição nível segundos"
+	}
+	
+	"infgrav"
+	{
+		"pt"			"Dispositivo anti-gravidade (nível máximo 40): Reduz a gravidade ao pular: 1 - (0.8 * anti-gravidade nível / 40)"
+	}
+	
+	"infsped"
+	{
+		"pt"			"Aumento de velocidade (nível máximo 80): E se 1 é a velocidade real: 1 + 1 * velocidade nível /80"
+	}
+	
+	"infawar"
+	{
+		"pt"			"Consciência (nível máximo 80): Aumenta outras habilidades em um pequeno caminho, substitui a velocidade"
+	}
+	
+	"inftpow"
+	{
+		"pt"			"Poder da equipe (nível máximo 60): Aumenta a saúde e a armadura para você e seus companheiros de equipe"
+	}
+	
+	"infblck"
+	{
+		"pt"			"Bloquear ataque (nível máximo 140): Toda vez que você é atingido, existe uma chance entre o Bloquear nível e 300 de ser invencível."
+	}
+	
+	"summonlvlreq"
+	{
+		"pt"			"Você deve estar no nível {1} ou superior para usar essa habilidade."
+	}
+	
+	"summoncd"
+	{
+		"pt"			"Você deve esperar {1} segundos antes de poder convocar novamente."
+	}
+	
+	"summonalive"
+	{
+		"pt"			"Seu {1} ainda está vivo. Pressione novamente para anônimo."
+	}
+	
+	"summoned"
+	{
+		"pt"			"Você convocou um {1}."
+	}
+	
+	"summonspacechk"
+	{
+		"pt"			"Não há espaço suficiente para convocar {1}."
+	}
+	
+	"summonres"
+	{
+		"pt"			"Você não pode chamar um {1} neste mapa."
+	}
+	
+	"summondied"
+	{
+		"pt"			"Seu {1} morreu."
+	}
+	
+	"totalexp"
+	{
+		"pt"			"Sua experiência total atual: {1}"
+	}
+	
+	"givelevelsyntax"
+	{
+		"pt"			"/givelevel <cliente para dar a> <níveis para dar>"
+	}
+	
+	"giveexpsyntax"
+	{
+		"pt"			"/givexp <cliente para dar a> <experiência para dar>"
+	}
+	
+	"cannotgivetoself"
+	{
+		"pt"			"Não pode dar para si mesmo."
+	}
+	
+	"levellowerthancur"
+	{
+		"pt"			"Nível atual inferior ao que você está dando."
+	}
+	
+	"givenexp"
+	{
+		"pt"			"Você recebeu {1} experiência de {2}"
+	}
+	
+	"takenexp"
+	{
+		"pt"			"Você deu {1} experiência para {2}"
+	}
+	
+	"usegivelvls"
+	{
+		"pt"			"Usar /givelevels para dar mais de 10K experiência"
+	}
+	
+	"AntigravDisabled"
+	{
+		"pt"			"Antigravidade é desabilitada neste mapa pelo servidor."
+	}
+	
+	"WinningTeam"
+	{
+		"pt"			"Você ganhou {1} XP por estar no time vencedor!"
+	}
+	
+	"RoundReward"
+	{
+		"pt"			"Você ganhou {1} XP por receber um dos prêmios da rodada."
+	}
+	
+	"RoundComplete"
+	{
+		"pt"			"Você ganhou {1} XP por completar esta rodada."
+	}
+	
+	"HealedXP"
+	{
+		"pt"			"Você ganhou {1} XP para curar {2}"
+	}
+	
+	"CompletedMap"
+	{
+		"pt"			"Você ganhou {1} XP por completar {2}."
+	}
+}
