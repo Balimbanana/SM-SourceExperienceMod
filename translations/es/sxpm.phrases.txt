@@ -22,12 +22,12 @@
 
 	"PrintInf3"
 	{
-		"es"			"(6)anti de la gravedad: {1}/40\n(7){2}: {3}/80\n(8)Equipo de alimentación: {4}/60\n(9)Bloque:{5}/140"
+		"es"			"(6)anti de la gravedad: {1}/40\n(7){2}: {3}/80\n(8)Equipo de alimentación: {4}/60\n(9)Bloque: {5}/140\n(10)Velocidad de recarga: {6}/100"
 	}
 		
 	"PrintInfAll"
 	{
-		"es"			"\n{16}\nExperiencia: {1}/{2}\nNivel: {3}/{4}\npuntos de habilidad: {5}\n(1)puntos de fuerza: {6}/400\n(2)puntos de armadura: {7}/450\n(3)Regeneración: {8}/300\n(4)Nano Armor: {9}/300\n(5)Munición Regeneración: {10}/30\n(6)anti de la gravedad: {11}/40\n(7){12}: {13}/80\n(8)Equipo de alimentación: {14}/60\n(9)Bloque: {15}/140"
+		"es"			"\n{16}\nExperiencia: {1}/{2}\nNivel: {3}/{4}\npuntos de habilidad: {5}\n(1)puntos de fuerza: {6}/400\n(2)puntos de armadura: {7}/450\n(3)Regeneración: {8}/300\n(4)Nano Armor: {9}/300\n(5)Munición Regeneración: {10}/30\n(6)anti de la gravedad: {11}/40\n(7){12}: {13}/80\n(8)Equipo de alimentación: {14}/60\n(9)Bloque: {15}/140\n(10)Velocidad de recarga: {17}/100"
 	}
 
 	"inf1"
@@ -98,6 +98,11 @@
 	"Block"
 	{
 		"es"			"Ataque de bloque"
+	}
+	
+	"ReloadSpeed"
+	{
+		"es"			"Velocidad de recarga"
 	}
 
 	"MaxedSkills"
@@ -178,6 +183,11 @@
 	"infblck"
 	{
 		"es"			"ataque bloque (nivel máximo 140): Cada vez que se ven afectados, hay una posibilidad entre el nivel de bloque y 300 para ser invencible."
+	}
+	
+	"infreload"
+	{
+		"es"			"Velocidad de recarga (nivel máximo 100): Aumenta la velocidad de recarga hasta 2 veces al nivel máximo."
 	}
 	
 	"summonlvlreq"
