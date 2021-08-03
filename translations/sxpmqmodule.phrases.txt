@@ -1,0 +1,177 @@
+"Phrases"
+{
+	"NoQuestSelected"
+	{
+		"en"			"You do not have a quest selected, use !quest to select one."
+		"ru"			"Вы не выбрали ни одного квеста, используй !quest"
+	}
+	
+	"WarningQuestAlreadySelected"
+	{
+		"en"			"Warning! Accepting another quest will remove progress on current quest!"
+		"ru"			"Внимание! Принятие другого квеста отменит текущий прогресс!"
+	}
+	
+	"RemovedQuest"
+	{
+		"en"			"Removed Quest"
+		"ru"			"Квест отменен"
+	}
+	
+	"AcceptedQuest"
+	{
+		"en"			"Accepted Quest"
+		"ru"			"Квест принят"
+	}
+	
+	"TurnOffAssists"
+	{
+		"en"			"Turned off showing assists."
+		"ru"			"Отключен показ помощи."
+	}
+	
+	"TurnOnAssists"
+	{
+		"en"			"Turned on showing assists."
+		"ru"			"Включен показ помощи."
+	}
+	
+	"AssistedKill"
+	{
+		"#format"		"{1:s},{2:f}"
+		"en"			"You assisted to kill {1} with {2} damage."
+		"ru"			"Вы помогли убить {1} с уроном {2}."
+	}
+	
+	"PlayerCompletedQuest"
+	{
+		"#format"		"{1:s},{2:s},{3:i}"
+		"en"			"{RED}{1}{DEFAULT} has completed the quest {GREEN}\"{2}\"{DEFAULT} and has gained {GOLD}{3} XP!"
+		"ru"			"{RED}{1}{DEFAULT} завершил квест {GREEN}\"{2}\"{DEFAULT} и получил {GOLD}{3} XP!"
+	}
+	
+	"SideQuestFMT"
+	{
+		"#format"		"{1:s},{2:i},{3:i},{4:i}"
+		"en"			"SideQuest {1} at {2}/{3} for {4} XP"
+		"ru"			"Побочное задание {1} {2}/{3} за {4} XP"
+	}
+
+	"UpdatedProgress"
+	{
+		"#format"		"{1:s}"
+		"en"			"Quest progress updated for {GREEN}\"{1}\"{DEFAULT}."
+		"ru"			"Прогресс квеста {GREEN}\"{1}\"{DEFAULT} обновлен."
+	}
+	
+	"MustComplete"
+	{
+		"en"			"Must Complete:"
+		"ru"			"Требуется для выполнения:"
+	}
+	
+	"NextAvailableTime"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"{1} (Completed) Next Available {2}"
+		"ru"			"{1} (Завершен) Доступен через {2}"
+	}
+
+	"Day"
+	{
+		"en"			"1 Day"
+		"ru"			"1 день"
+	}
+
+	"Days"
+	{
+		"#format"		"{1:i}"
+		"en"			"{1} Days"
+		"ru"			"{1} Дней"
+	}
+
+	"NextMonth"
+	{
+		"en"			"Next Month"
+		"ru"			"Месяц"
+	}
+
+	"Completed"
+	{
+		"#format"		"{1:s}"
+		"en"			"{1} (Completed)"
+		"ru"			"{1} (Завершен)"
+	}
+
+	"QuestActive"
+	{
+		"#format"		"{1:s},{2:i}"
+		"en"			"{1} (Quest Active) ({2} XP)"
+		"ru"			"{1} (Квест активен) ({2} XP)"
+	}
+
+	"QuestAccepted"
+	{
+		"#format"		"{1:s},{2:i}"
+		"en"			"{1} (Quest Accepted) ({2} XP)"
+		"ru"			"{1} (Квест принят) ({2} XP)"
+	}
+
+	"SkillMenuTitle"
+	{
+		"en"			"Buy or Activate Skills using completed quests count as currency"
+	}
+
+	"BuySkill"
+	{
+		"#format"		"{1:s},{2:i},{3:s}"
+		"en"			"Buy {1} skill, costs: {2} ({3})"
+	}
+
+	"SkillCooldown"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"{1} {2} seconds left"
+	}
+
+	"NowHaveAccess"
+	{
+		"#format"		"{1:s}"
+		"en"			"You now have access to {1}!"
+	}
+
+	"SniperShot"
+	{
+		"en"			"Sniper Shot"
+	}
+
+	"AuxRefill"
+	{
+		"en"			"AUX Refill"
+	}
+
+	"AreaHeal"
+	{
+		"en"			"Area Heal"
+	}
+
+	"RapidFire"
+	{
+		"en"			"Rapid Fire"
+	}
+
+	"FireBlast"
+	{
+		"en"			"Fire Blast"
+	}
+
+	"CombineCannon"
+	{
+		"en"			"Combine Cannon"
+	}
+
+	"UnableToUse"
+	{
+		"en"			"Unable to use this skill at this time."
+	}
+}

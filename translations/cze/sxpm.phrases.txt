@@ -1,0 +1,117 @@
+"Phrases"
+{
+	"LevelUp"
+	{
+		"cze"			"You have reached level {1}/{2}"
+	}	
+
+	"Points To Spend"
+	{
+		"cze"			"You have {1} points to spend."
+	}	
+
+	"PrintInf1"
+	{
+		"cze"			"Experience: {1}/{2}\nLevel: {3}/{4}\nSkill Points: {5}\n"
+	}
+
+	"PrintInf2"
+	{
+		"cze"			"(1)Strength points: {1}/400\n(2)Armor points: {2}/450\n(3)Regeneration: {3}/300\n(4)Nano Armor: {4}/300\n(5)Ammo Regeneration: {5}/30\n"
+	}
+
+	"PrintInf3"
+	{
+		"cze"			"(6)Anti Gravity: {1}/40\n(7){2}: {3}/80\n(8)TeamPower: {4}/60\n(9)Block: {5}/140"
+	}
+		
+	"PrintInfAll"
+	{
+		"cze"			"Experience: {1}/{2}\nLevel: {3}/{4}\nSkill Points: {5}\n(1)Strength points: {6}/400\n(2)Armor points: {7}/450\n(3)Regeneration: {8}/300\n(4)Nano Armor: {9}/300\n(5)Ammo Regeneration: {10}/30\n(6)Anti Gravity: {11}/40\n(7){12}: {13}/80\n(8)TeamPower: {14}/60\n(9)Block: {15}/140"
+	}
+
+	"inf1"
+	{
+		"cze"			"/playerskills - displays your players skills.\n/playerlevels - displays all players levels and TeamPower.\n/selectskills - displays level up menu.\n"
+	}
+
+	"inf2"
+	{
+		"cze"			"/spendpoints 1 10 - spends 10 points into Strength.\n/removepoints 1 10 - removes 10 points from Strength.\n/resetskills - resets all skills to 0 and returns the points put in them.\n"
+	}
+
+	"inf3"
+	{
+		"cze"			"/hudmsg r g b - sets hud message colors"
+	}
+
+	"PlayerLevels"
+	{
+		"cze"			"{1}: Level: {2}, TeamPower: {3}"
+	}
+	
+	"Strength"
+	{
+		"cze"			"Strength"
+	}
+	
+	"Armor"
+	{
+		"cze"			"Superior Armor"
+	}
+	
+	"HealthRegen"
+	{
+		"cze"			"Health Regeneration"
+	}
+	
+	"NanoArmor"
+	{
+		"cze"			"Nano Armor"
+	}
+	
+	"AmmoReg"
+	{
+		"cze"			"Ammo Regeneration"
+	}
+	
+	"AntiGrav"
+	{
+		"cze"			"Anti Gravity Device"
+	}
+	
+	"Speed"
+	{
+		"cze"			"Speed Increase"
+	}
+	
+	"Awareness"
+	{
+		"cze"			"Awareness"
+	}
+	
+	"TeamPower"
+	{
+		"cze"			"Team Power"
+	}
+	
+	"Block"
+	{
+		"cze"			"Block Attack"
+	}
+	
+	"LevelUpSelectSkill"
+	{
+		"cze"			"Level Up, select the skill you want to increase:"
+	}
+	
+	"hud1"
+	{
+		"cze"			"Level: {1}/{2}\nExperience: {3}/{4}\n"
+	}
+	
+	"UnspentPoints"
+	{
+		"cze"			"Unspent Skill Points: {1}"
+	}
+}
