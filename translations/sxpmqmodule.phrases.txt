@@ -145,9 +145,19 @@
 		"en"			"Sniper Shot"
 	}
 
+	"SniperShotInfo"
+	{
+		"en"			"Sniper Shot\n- Movement speed reduced to 0.2 while active.\n- Can zoom in 3 times with right click.\n- Cooldown 40 seconds."
+	}
+
 	"AuxRefill"
 	{
 		"en"			"AUX Refill"
+	}
+
+	"AuxRefillInfo"
+	{
+		"en"			"AUX Refill\n- Refills AUX meter immediately.\n- Cooldown 20 seconds."
 	}
 
 	"AreaHeal"
@@ -155,9 +165,19 @@
 		"en"			"Area Heal"
 	}
 
+	"AreaHealInfo"
+	{
+		"en"			"Area Heal\n- Heals everyone (including NPCs) around you.\n- Pulses every second for 10 seconds, healing 5 health and gives 1 XP per heal.\n- Cooldown 30 seconds."
+	}
+
 	"RapidFire"
 	{
 		"en"			"Rapid Fire"
+	}
+
+	"RapidFireInfo"
+	{
+		"en"			"Rapid Fire\n- Gives rapid fire for 5 seconds.\n- Reduces damage dealt by half.\n- Cooldown 30 seconds."
 	}
 
 	"FireBlast"
@@ -165,9 +185,19 @@
 		"en"			"Fire Blast"
 	}
 
+	"FireBlastInfo"
+	{
+		"en"			"Fire Blast\n- Ignites NPCs in front of you.\n- Cooldown 20 seconds."
+	}
+
 	"CombineCannon"
 	{
 		"en"			"Combine Cannon"
+	}
+
+	"CombineCannonInfo"
+	{
+		"en"			"Combine Cannon\n- Orbital cannon that charges up and explodes from the sky.\n- Cannot be fired under roofs.\n- Cooldown 60 seconds."
 	}
 
 	"UnableToUse"
