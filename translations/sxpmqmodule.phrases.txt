@@ -128,6 +128,12 @@
 		"en"			"Buy {1} skill, costs: {2} ({3})"
 	}
 
+	"UsedSkill"
+	{
+		"#format"		"{1:s}"
+		"en"			"You have activated {1}!"
+	}
+
 	"SkillCooldown"
 	{
 		"#format"		"{1:s},{2:s}"
