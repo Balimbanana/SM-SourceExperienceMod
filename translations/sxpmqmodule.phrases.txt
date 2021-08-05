@@ -200,6 +200,11 @@
 		"en"			"Combine Cannon\n- Orbital cannon that charges up and explodes from the sky.\n- Cannot be fired under roofs.\n- Cooldown 60 seconds."
 	}
 
+	"SkillInfo"
+	{
+		"en"			"Skills Info"
+	}
+
 	"UnableToUse"
 	{
 		"en"			"Unable to use this skill at this time."
