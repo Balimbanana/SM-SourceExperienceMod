@@ -185,5 +185,17 @@ The costs are listed in the !sxpmskill menu, these costs are only once to unlock
 - Increased radius of explosion by 1.2x
 - Increased damage by 1.25x
 
-**Map Makers**
-You can place a blank file in modname\maps\sxpmgrav\mapname to block Anti Gravity on your maps if you prefer to not have it.
+# Map Makers
+You can place files in modname\maps\sxpmgrav\mapname to block Anti Gravity on your maps if you prefer to not have it. (Mostly for backwards compatibility)
+
+You can now place in a modname\maps\sxpm\mapname.txt file a list of disabled skills, one per line allowing for more specific restrictions of skills on your map:
+- strength
+- armor
+- healthregen
+- armorregen
+- ammoregen
+- antigravity
+- awareness
+- speed
+- teampower
+- block
