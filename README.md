@@ -70,6 +70,23 @@ So if you are level 21 and did `!givelevel Bob 1` It would give Bob the XP it to
 
 `!givexp <ClientName> <Amount>` Gives XP to another player, a different variant of givelevel, you can specify exactly how much XP you want to give, levels will be reduced if you have less than enough in the current level.
 
+**SXPMQModule Commands**
+
+`sxpm_quests` or `quests` Shows your currently active quests and side quests.
+`sxpm_getquest` or `quest` will show available quests to be selected. You may only select one campaign quest at a time.
+
+`!showassists` Shows assisted kills information.
+
+`!sxpmskill` opens additional active skills menu. These skills can also be directly bound by:
+- `sxpm_use_skill fireblast`
+- `sxpm_use_skill snipershot`
+- `sxpm_use_skill auxrefill`
+- `sxpm_use_skill areaheal`
+- `sxpm_use_skill rapidfire`
+- `sxpm_use_skill combinecannon`
+
+See the full descriptions of the active skills at the bottom of this page.
+
 **Server CMD's**
 
 `setlvl <CL ID> <Amount>` Sets level by Client ID, this function is blocked while connected to an external DB.
@@ -117,6 +134,56 @@ The number of players in your vicinity is denoted by the number on the bottom le
 
 `skill` In most mods, this will set the enemy difficulty. This will also scale XP gain per kill by: 1 = 1.0, 2 = 1.25, 3 = 1.5
 Where 1 is easy, 2 is normal, 3 is hard. Insurgency will use `ins_bot_difficulty` instead. L4D2 will use `z_difficulty` instead.
+
+**SXPMQModule Active Skills Descriptions:**
+You use completed side quests, and campaign quests as currency to buy skills.
+The costs are listed in the !sxpmskill menu, these costs are only once to unlock permanently.
+
+**Fire Blast**
+- Ignites NPCs in front of you.
+- Costs 5 side quests completed.
+- Cooldown 20 seconds.
+
+**Fire Blast Level 2:**
+- Increased duration of ignite.
+- Increased range of fire.
+
+**Sniper Shot**
+- Movement speed reduced to 0.2 while active.
+- Can zoom in 3 times with right click.
+- Costs 5 campaign quests completed.
+- Cooldown 40 seconds.
+
+**AUX Refill**
+- Refills AUX meter immediately.
+- Costs 5 side quests completed.
+- Cooldown 20 seconds.
+
+**Area Heal**
+- Heals everyone (including NPCs) around you.
+- Pulses every second for 10 seconds, healing 5 health and gives 1 XP per heal.
+- Costs 8 side quests completed.
+- Cooldown 30 seconds.
+
+**Heal level 2:**
+- Increased amount healed per wave by 2.
+- Increased range of heal by 1.25x
+
+**Rapid Fire**
+- Gives rapid fire for 5 seconds.
+- Reduces damage dealt by half.
+- Costs 5 campaign quests completed.
+- Cooldown 30 seconds.
+
+**Combine Cannon**
+- Orbital cannon that charges up and explodes from the sky.
+- Cannot be fired under roofs.
+- Costs 10 campaign quests completed.
+- Cooldown 60 seconds.
+
+**Cannon Level 2:**
+- Increased radius of explosion by 1.2x
+- Increased damage by 1.25x
 
 **Map Makers**
 You can place a blank file in modname\maps\sxpmgrav\mapname to block Anti Gravity on your maps if you prefer to not have it.
