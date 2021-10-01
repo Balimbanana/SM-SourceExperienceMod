@@ -31,6 +31,12 @@ Toggleable via `sxpm_awareness 1`
 
 **9 Block Attack** (max level 140): Every time you are hit, there is a chance between BlockLevel and 300 to be invincible.
 
+**10 Reload Speed** (max level 100): Increases reload speed up to 2x at max level.
+
+**11 Vampire** (max level 50): Gives health on kill based on a percentage of how much damage you did to the enemy.
+
+**12 Summon Mastery** (max level 80): Increases summons health and damage.
+
 
 **Commands Chat/Console**
 
@@ -134,6 +140,8 @@ The number of players in your vicinity is denoted by the number on the bottom le
 
 `skill` In most mods, this will set the enemy difficulty. This will also scale XP gain per kill by: 1 = 1.0, 2 = 1.25, 3 = 1.5
 Where 1 is easy, 2 is normal, 3 is hard. Insurgency will use `ins_bot_difficulty` instead. L4D2 will use `z_difficulty` instead.
+
+`sxpm_difficulty` When set to 1, it will adjust certain stats of combine and zombies and give slight random increase of health. 2 will have a 10% chance of giving enemies abilities and will be colored.
 
 **SXPMQModule Active Skills Descriptions:**
 You use completed side quests, and campaign quests as currency to buy skills.
