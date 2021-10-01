@@ -207,3 +207,6 @@ You can now place in a modname\maps\sxpm\mapname.txt file a list of disabled ski
 - speed
 - teampower
 - block
+- reloadspeed
+- vampire
+- summonmastery
