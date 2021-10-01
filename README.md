@@ -3,7 +3,7 @@ You can see the original mod here:
 https://forums.alliedmods.net/showthread.php?t=123926
 The SXPM mod was originally created and abandoned by lilEzek in 2010.
 
-The Source Experience Mod is a mod that allows players to level up by various means. There are 9 skills with one that is toggleable and currently one active skill to summon a manhack.
+The Source Experience Mod is a mod that allows players to level up by various means. There are 12 skills with one that is toggleable and some active skills such as summoning, and if the QModule is running, there are some active skills there too.
 
 SXPM has setups to allow for running it on Synergy, HL2:DM, ~Obsidian~, Insurgency, Day of Infamy, Counter-Strike: Source, Golden Eye: Source, Dino D-Day, Left 4 Dead 2, Team Fortress 2.
 
