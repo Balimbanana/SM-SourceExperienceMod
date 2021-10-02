@@ -127,7 +127,7 @@
 	{
 		"#format"		"{1:s},{2:i},{3:s}"
 		"en"			"Buy {1} skill, costs: {2} ({3})"
-		"ru"			"Купить {1} навык, стоимость: {2} ({3})"
+		"ru"			"Купить навык {1}, стоимость: {2} ({3})"
 	}
 
 	"UsedSkill"
@@ -160,7 +160,7 @@
 	"SniperShotInfo"
 	{
 		"en"			"Sniper Shot\n- Movement speed reduced to 0.2 while active.\n- Can zoom in 3 times with right click.\n- Cooldown 40 seconds."
-		"ru"			"Снайперский выстрел\n- Когда активно, скорость передвижения уменьшена до 0.2.\n- Возможность увеличения в 3 раза по правому клику.\n- Восстановление 40 секунд."
+		"ru"			"Снайперский выстрел\n- Когда активно, скорость передвижения уменьшена до 0.2.\n- Возможность увеличения в 3 раза по правому клику.\n- Перезарядка 40 секунд."
 	}
 
 	"AuxRefill"
@@ -172,7 +172,7 @@
 	"AuxRefillInfo"
 	{
 		"en"			"AUX Refill\n- Refills AUX meter immediately.\n- Cooldown 20 seconds."
-		"ru"			"Перезарядка костюма\n- Перезаряжает костюм немедленно.\n- Восстановление 20 секунд."
+		"ru"			"Перезарядка костюма\n- Перезаряжает костюм немедленно.\n- Перезарядка 20 секунд."
 	}
 
 	"AreaHeal"
@@ -184,7 +184,7 @@
 	"AreaHealInfo"
 	{
 		"en"			"Area Heal\n- Heals everyone (including NPCs) around you.\n- Pulses every second for 10 seconds, healing 5 health and gives 1 XP per heal.\n- Cooldown 30 seconds."
-		"ru"			"Область лечения\n- Лечит всех вокруг тебя, включая NPC.\n- Пульсирует каждую секунду в течение 10 секунд, лечит 5 единиц здоровья и дает 1XP за лечение.\n- Восстановление 30 секунд."
+		"ru"			"Область лечения\n- Лечит всех вокруг тебя, включая NPC.\n- Пульсирует каждую секунду в течение 10 секунд, лечит 5 единиц здоровья и дает 1XP за лечение.\n- Перезарядка 30 секунд."
 	}
 
 	"RapidFire"
@@ -196,19 +196,19 @@
 	"RapidFireInfo"
 	{
 		"en"			"Rapid Fire\n- Gives rapid fire for 5 seconds.\n- Reduces damage dealt by half.\n- Cooldown 30 seconds."
-		"ru"			"Быстрый огонь\n- Быстрый огонь в течение 5 секунд.\n- Уменьшает урон на половину.\n- Восстановление 30 секунд."
+		"ru"			"Быстрый огонь\n- Быстрый огонь в течение 5 секунд.\n- Уменьшает урон на половину.\n- Перезарядка 30 секунд."
 	}
 
 	"FireBlast"
 	{
 		"en"			"Fire Blast"
-		"ru"			"Огненный взрыв"
+		"ru"			"Огненный удар"
 	}
 
 	"FireBlastInfo"
 	{
 		"en"			"Fire Blast\n- Ignites NPCs in front of you.\n- Cooldown 20 seconds."
-		"ru"			"Огненный взрыв\n- Поджигает NPC перед вами.\n- Восстановление 20 секунд."
+		"ru"			"Огненный удар\n- Поджигает NPC перед вами.\n- Перезарядка 20 секунд."
 	}
 
 	"CombineCannon"
@@ -220,7 +220,7 @@
 	"CombineCannonInfo"
 	{
 		"en"			"Combine Cannon\n- Orbital cannon that charges up and explodes from the sky.\n- Cannot be fired under roofs.\n- Cooldown 60 seconds."
-		"ru"			"Пушка Альянса\n- Орбитальная пушка, которая заряжается и взрывает с неба.\n- Не может стрелять над крышами.\n- Восстановление 60 секунд."
+		"ru"			"Пушка Альянса\n- Орбитальная пушка, которая заряжается и взрывает с неба.\n- Не может стрелять над крышами.\n- Перезарядка 60 секунд."
 	}
 
 	"SkillInfo"
@@ -239,55 +239,66 @@
 	{
 		"format"		"{1:s}"
 		"en"			"{1} has worn off."
+		"ru"			"{1} прошёл."
 	}
 
 	"Thorns"
 	{
 		"en"			"Thorns"
+		"ru"			"Шипы"
 	}
 
 	"ThornsInfo"
 	{
 		"en"			"Thorns\n- Returns a percentage of damage taken for 8 seconds.\n- Cooldown 60 seconds."
+		"ru"			"Шипы\n- Возвращает процент полученного урона в течение 8 секунд.\n- Перезарядка 60 секунд."
 	}
 
 	"Confuse"
 	{
 		"en"			"Confuse"
+		"ru"			"Замешательство"
 	}
 
 	"ConfuseInfo"
 	{
 		"en"			"Confuse\n- Confuses a target to attack whatever is nearest to it for 12 seconds.\n- Cooldown 40 seconds."
+		"ru"			"Замешательство\n- Сбивает цель с толку, чтобы атаковать всё, что находится вблизи неё в течение 12 секунд.\n- Перезарядка 40 секунд."
 	}
 
 	"Amplify"
 	{
 		"en"			"Amplify"
+		"ru"			"Усиление"
 	}
 
 	"AmplifyInfo"
 	{
 		"en"			"Amplify\n- Increases damage done to an enemy for 5 seconds.\n- Cooldown 30 seconds."
+		"ru"			"Усиление\n- Увеличивает наносимый врагу урон в течение 5 секунд.\n- Перезарядка 30 секунд."
 	}
 
 	"HealBeam"
 	{
 		"en"			"Heal Beam"
+		"ru"			"Исцеляющий Луч"
 	}
 
 	"HealBeamInfo"
 	{
 		"en"			"Heal Beam\n- Creates a beam between you and a friend which heals them constantly for 10 seconds\n- Target must stay in range of you.\n- Cooldown 30 seconds."
+		"ru"			"Исцеляющий луч\n- Создает луч между вами и другом, который исцеляего его в течение 10 секунд\n- Цель должна находиться в пределах досягаемости от вас.\n- Перезарядка 30 секунд."
 	}
 
 	"GuardianAngel"
 	{
 		"en"			"Guardian Angel"
+		"ru"			"Ангел-хранитель"
 	}
 
 	"GuardianAngelInfo"
 	{
 		"en"			"Guardian Angel\n- Heals a target for 40% of their max health.\n- Can be used while dead.\n- Cooldown 60 seconds."
+		"ru"			"Ангел-хранитель\n- Исцеляет цель на на 40% от максимального здоровья.\n-  Может быть использован, будучи мертвым.\n- Перезарядка 60 секунд."
 	}
 }
