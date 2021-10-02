@@ -234,4 +234,60 @@
 		"en"			"Unable to use this skill at this time."
 		"ru"			"Сейчас нельзя использвать этот навык."
 	}
+
+	"SkillWornOff"
+	{
+		"format"		"{1:s}"
+		"en"			"{1} has worn off."
+	}
+
+	"Thorns"
+	{
+		"en"			"Thorns"
+	}
+
+	"ThornsInfo"
+	{
+		"en"			"Thorns\n- Returns a percentage of damage taken for 8 seconds.\n- Cooldown 60 seconds."
+	}
+
+	"Confuse"
+	{
+		"en"			"Confuse"
+	}
+
+	"ConfuseInfo"
+	{
+		"en"			"Confuse\n- Confuses a target to attack whatever is nearest to it for 12 seconds.\n- Cooldown 40 seconds."
+	}
+
+	"Amplify"
+	{
+		"en"			"Amplify"
+	}
+
+	"AmplifyInfo"
+	{
+		"en"			"Amplify\n- Increases damage done to an enemy for 5 seconds.\n- Cooldown 30 seconds."
+	}
+
+	"HealBeam"
+	{
+		"en"			"Heal Beam"
+	}
+
+	"HealBeamInfo"
+	{
+		"en"			"Heal Beam\n- Creates a beam between you and a friend which heals them constantly for 10 seconds\n- Target must stay in range of you.\n- Cooldown 30 seconds."
+	}
+
+	"GuardianAngel"
+	{
+		"en"			"Guardian Angel"
+	}
+
+	"GuardianAngelInfo"
+	{
+		"en"			"Guardian Angel\n- Heals a target for 40% of their max health.\n- Can be used while dead.\n- Cooldown 60 seconds."
+	}
 }
