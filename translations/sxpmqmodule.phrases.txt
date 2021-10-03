@@ -237,7 +237,7 @@
 
 	"SkillWornOff"
 	{
-		"format"		"{1:s}"
+		"#format"		"{1:s}"
 		"en"			"{1} has worn off."
 		"ru"			"{1} прошёл."
 	}
