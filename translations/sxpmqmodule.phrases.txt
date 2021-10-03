@@ -242,6 +242,12 @@
 		"ru"			"{1} прошёл."
 	}
 
+	"TooFar"
+	{
+		"en"			"Target is too far away."
+		"ru"			"Цель слишком далеко."
+	}
+
 	"Thorns"
 	{
 		"en"			"Thorns"
