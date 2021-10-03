@@ -193,6 +193,33 @@ The costs are listed in the !sxpmskill menu, these costs are only once to unlock
 - Increased radius of explosion by 1.2x
 - Increased damage by 1.25x
 
+**Thorns:**
+- Returns a percentage of damage taken for 8 seconds.
+- Costs 8 campaign quests completed.
+- Cooldown 60 seconds.
+
+**Confuse:**
+- Confuses a target to attack whatever is nearest to it for 12 seconds.
+- Costs 20 side quests completed.
+- Cooldown 40 seconds.
+
+**Amplify:**
+- Increases damage done to an enemy for 5 seconds.
+- Costs 25 side quests completed.
+- Cooldown 30 seconds.
+
+**Heal Beam:**
+- Creates a beam between you and a friend which heals them constantly for 10 seconds
+- Target must stay in range of you.
+- Costs 15 side quests completed.
+- Cooldown 30 seconds.
+
+**Guardian Angel:**
+- Heals a target for 40% of their max health.
+- Can be used while dead.
+- Costs 10 side quests completed.
+- Cooldown 60 seconds while dead. 2 1/2 minutes if alive.
+
 # Map Makers
 You can place files in modname\maps\sxpmgrav\mapname to block Anti Gravity on your maps if you prefer to not have it. (Mostly for backwards compatibility)
 
