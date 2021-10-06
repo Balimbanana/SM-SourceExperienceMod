@@ -5,7 +5,7 @@ The SXPM mod was originally created and abandoned by lilEzek in 2010.
 
 The Source Experience Mod is a mod that allows players to level up by various means. There are 12 skills with one that is toggleable and some active skills such as summoning, and if the QModule is running, there are some active skills there too.
 
-SXPM has setups to allow for running it on Synergy, HL2:DM, ~Obsidian~, Insurgency, Day of Infamy, Counter-Strike: Source, Golden Eye: Source, Dino D-Day, Left 4 Dead 2, Team Fortress 2.
+SXPM has setups to allow for running it on Synergy, HL2:DM, ~Obsidian~, Insurgency, Day of Infamy, Counter-Strike: Source, Golden Eye: Source, Dino D-Day, Left 4 Dead 2, Team Fortress 2, Lambda Fortress, Fistful of Frags, Pirates Vikings & Knights II, Black Mesa.
 
 Here are the skills:
 
@@ -65,9 +65,9 @@ This option is also in the `!sxpm` menu.
 
 `!skills` or `!skillsinfo` Opens console and shows all skills with their descriptions.
 
-`!mhk` or `7` on keyboard will summon a manhack if your level is high enough (or it is unlocked by QModule). Pressing 7 twice will unsummon.
+`!summons` or `7` on keyboard will open the summons menu.
 
-`!mhkk` Unsummons manhack.
+`!mhkk` Unsummons your summon.
 
 `mhkg` or `C` Will tell your manhack to go to where you are looking, or attack what you are looking at.
 
@@ -75,6 +75,8 @@ This option is also in the `!sxpm` menu.
 So if you are level 21 and did `!givelevel Bob 1` It would give Bob the XP it took to get from level 20 to level 21.
 
 `!givexp <ClientName> <Amount>` Gives XP to another player, a different variant of givelevel, you can specify exactly how much XP you want to give, levels will be reduced if you have less than enough in the current level.
+
+`/sxpm_menutype` Sets whether or not to use regular radio menus, or dialog menus.
 
 **SXPMQModule Commands**
 
@@ -90,6 +92,11 @@ So if you are level 21 and did `!givelevel Bob 1` It would give Bob the XP it to
 - `sxpm_use_skill areaheal`
 - `sxpm_use_skill rapidfire`
 - `sxpm_use_skill combinecannon`
+- `sxpm_use_skill thorns`
+- `sxpm_use_skill confuse`
+- `sxpm_use_skill amplify`
+- `sxpm_use_skill healbeam`
+- `sxpm_use_skill guardianangel`
 
 See the full descriptions of the active skills at the bottom of this page.
 
@@ -142,6 +149,16 @@ The number of players in your vicinity is denoted by the number on the bottom le
 Where 1 is easy, 2 is normal, 3 is hard. Insurgency will use `ins_bot_difficulty` instead. L4D2 will use `z_difficulty` instead.
 
 `sxpm_difficulty` When set to 1, it will adjust certain stats of combine and zombies and give slight random increase of health. 2 will have a 10% chance of giving enemies abilities and will be colored.
+
+`sxpm_usedialogs` When set to 1, uses all dialogs menus instead of radio menus. Meant for some games that do not support radio menus mainly.
+
+`sxpm_sound_block` Default "", sets a sound to play when the Block skill works to block damage, set a path ralative to the sound directory accepts variable numbers such as "blocksound(1-3).wav" or "blocksound(1,2,4).wav" (1-3) will pick a random number from 1 to 3. (1,2,4) will select a random value in the set if you need to skip a number. Example of a random metallic sound when blocking: "physics/metal/metal_box_impact_bullet(1-3).wav"
+
+`sxpm_sound_levelup` Default "", sets a sound to play when a player levels up. Path is ralative to the sound directory.
+
+`sxpm_summonsrelations` Default 1, sets summon relationship setting by SetRelationship (1) or ai_relationship (0).
+
+`sxpm_botstats` Default 0, allow bots to spawn with random skills based on how many times they have died.
 
 **SXPMQModule Active Skills Descriptions:**
 You use completed side quests, and campaign quests as currency to buy skills.
