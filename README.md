@@ -240,7 +240,7 @@ The costs are listed in the !sxpmskill menu, these costs are only once to unlock
 # Map Makers
 You can place files in modname\maps\sxpmgrav\mapname to block Anti Gravity on your maps if you prefer to not have it. (Mostly for backwards compatibility)
 
-You can now place in a modname\maps\sxpm\mapname.txt file a list of disabled skills, one per line allowing for more specific restrictions of skills on your map:
+You can now place in a modname\maps\sxpm\mapname.txt file a list of disabled skills, **one per line** allowing for more specific restrictions of skills on your map:
 - strength
 - armor
 - healthregen
@@ -254,3 +254,15 @@ You can now place in a modname\maps\sxpm\mapname.txt file a list of disabled ski
 - reloadspeed
 - vampire
 - summonmastery
+
+##### Active skill restrictions
+- fireblast
+- auxrefill
+- areaheal
+- snipershot
+- rapidfire
+- combinecannon
+- thorns
+- amplify
+- healbeam
+- guardianangel
