@@ -255,6 +255,10 @@ You can now place in a modname\maps\sxpm\mapname.txt file a list of disabled ski
 - vampire
 - summonmastery
 
+##### Summon restrictions
+Enter one full classname per line such as
+- npc_headcrab
+
 ##### Active skill restrictions
 - fireblast
 - auxrefill
