@@ -246,7 +246,7 @@ You can now place in a modname\maps\sxpm\mapname.txt file a list of disabled ski
 - healthregen
 - armorregen
 - ammoregen
-- antigravity 0.0 this now accepts 0.0 through 1.3 for reducing or increasing effectiveness. If no number is given, it is disabled.
+- antigravity 0.0 this now accepts 0.0000 through 1.3000 for reducing or increasing effectiveness. If no number is given, it is disabled.
 - awareness
 - speed
 - teampower
