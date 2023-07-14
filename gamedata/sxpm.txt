@@ -1,0 +1,247 @@
+"Games"
+{
+	"tf_coop_extended"
+	{
+		"Offsets"
+		{
+			"CBaseEntity::GetMaxHealth" // int CBaseEntity::GetMaxHealth()
+			{
+				"windows"	"128"
+				"linux"		"129"
+			}
+			
+			"CBaseCombatWeapon::GetBulletSpread" // vector& CBaseCombatWeapon::GetBulletSpread(WeaponProficiency_t)
+			{
+				"windows"	"280"
+				"linux"		"281"
+			}
+			
+			"CBaseCombatWeapon::GetBulletSpreadWithProf" // vector& CBaseCombatWeapon::GetBulletSpread(Vector result, WeaponProficiency_t)
+			{
+				"windows"	"281"
+				"linux"		"282"
+			}
+			
+			"CBaseCombatWeapon::GetFireRate" // float CBaseCombatWeapon::GetFireRate(void)
+			{
+				"windows"	"283"
+				"linux"		"284"
+			}
+			
+			"CBaseCombatWeapon::IsPredicted" // bool CBaseCombatWeapon::IsPredicted(void)
+			{
+				"windows"	"215"
+				"linux"		"216"
+			}
+		}
+
+		"Signatures"
+		{
+			"CTFPlayerShared::AddCond" // (int float)
+			{
+				"library"	"server"
+				"windows"	"\x55\x8B\xEC\x51\x53\x8B\x5D\x08\xB8\x01\x00\x00\x00"
+				"linux"		"\x55\x8B\xEC\x51\x53\x8B\x5D\x08\xB8\x01\x00\x00\x00"
+			}
+
+			"GetPlayerClassData" // TFPlayerClassData *GetPlayerClassData(int iClass)
+			{
+				"windows"	"\x55\x8B\xEC\x69\x45\x08\x54\x04\x00\x00"
+				"linux"		"\x55\x8B\xEC\x69\x45\x08\x54\x04\x00\x00"
+			}
+
+			"CPlayerInfo::GetMaxHealth" // int CPlayerInfo::GetMaxHealth(CPlayerInfo *this)
+			{
+				"windows"	"\x8B\x49\x04\x8B\x01\xFF\xA0\xD4\x01\x00\x00"
+				"linux"		"\x8B\x49\x04\x8B\x01\xFF\xA0\xD4\x01\x00\x00"
+			}
+			
+			"CBaseEntity::UnsetPlayerSimulated"
+			{
+				"windows"	"\x55\x89\xE5\x56\x83\xEC\x14\xE8\x2A\x2A\x2A\x2A\x59\x8B\x75\x08\x8B\x86\x64\x03\x00\x00"
+				// ZN11CBaseEntity20UnsetPlayerSimulatedEv
+				"linux"		"\x55\x89\xE5\x56\x83\xEC\x14\xE8\x2A\x2A\x2A\x2A\x59\x8B\x75\x08\x8B\x86\x64\x03\x00\x00"
+			}
+			
+			"CGrabController::Simulate" // IMotionEvent::simresult_e Simulate( IPhysicsMotionController *pController, IPhysicsObject *pObject, float deltaTime, Vector &linear, AngularImpulse &angular )
+			{
+				"windows"	"\x55\x89\xE5\x53\x57\x56\x81\xEC\x2C\x03\x00\x00\xE8\x2A\x2A\x2A\x2A\x5F"
+				"linux"		"\x55\x89\xE5\x53\x57\x56\x83\xEC\x7C\x8B\x4D\x10\x8B\x45\x08"
+			}
+		}
+	}
+
+	"tf_coop_lambda"
+	{
+		"Offsets"
+		{
+			"CBaseEntity::GetMaxHealth" // int CBaseEntity::GetMaxHealth()
+			{
+				"windows"	"120"
+				"linux"		"121"
+			}
+			
+			"CBaseCombatWeapon::GetBulletSpread" // vector& CBaseCombatWeapon::GetBulletSpread(WeaponProficiency_t)
+			{
+				"windows"	"295"
+				"linux"		"296"
+			}
+			
+			"CBaseCombatWeapon::GetBulletSpreadWithProf" // vector& CBaseCombatWeapon::GetBulletSpread(Vector result, WeaponProficiency_t)
+			{
+				"windows"	"296"
+				"linux"		"297"
+			}
+			
+			"CBaseCombatWeapon::GetFireRate" // float CBaseCombatWeapon::GetFireRate(void)
+			{
+				"windows"	"298"
+				"linux"		"299"
+			}
+			
+			"CBaseCombatWeapon::IsPredicted" // bool CBaseCombatWeapon::IsPredicted(void)
+			{
+				"windows"	"230"
+				"linux"		"231"
+			}
+		}
+
+		"Signatures"
+		{
+			"CTFPlayerShared::AddCond" // (int float)
+			{
+				"library"	"server"
+				"windows"	"\x55\x8B\xEC\x51\x53\x8B\x5D\x08\xB8\x01\x00\x00\x00"
+				"linux"		"\x55\x89\xE5\x83\xEC\x28\x89\x75\xF8\x8B\x75\x0C\x89\x5D\xF4\x8B\x5D\x08\x89\x7D\xFC\x83\xFE\x7F"
+			}
+
+			"GetPlayerClassData" // TFPlayerClassData *GetPlayerClassData(int iClass)
+			{
+				"windows"	"\x55\x8B\xEC\x69\x45\x08\x20\x0A\x00\x00"
+				"linux"		"\x55\x89\xE5\x69\x45\x08\x20\x0A\x00\x00"
+			}
+
+			"CPlayerInfo::GetMaxHealth" // int CPlayerInfo::GetMaxHealth(CPlayerInfo *this)
+			{
+				"windows"	"\x8B\x49\x04\x8B\x01\xFF\xA0\xE0\x01\x00\x00"
+				"linux"		"\x55\x89\xE5\x8B\x45\x08\x8B\x40\x08\x8B\x10\x89\x45\x08\x5D\x8B\x82\xE4\x01\x00\x00"
+			}
+			
+			"CBaseEntity::UnsetPlayerSimulated"
+			{
+				"windows"	"\x55\x8B\xEC\x51\x56\x8B\xF1\x8B\x96\x48\x03\x00\x00"
+				// ZN11CBaseEntity20UnsetPlayerSimulatedEv
+				"linux"		"\x55\x89\xE5\x83\xEC\x38\x89\x5D\xF4\x8B\x5D\x08\x89\x75\xF8\x8B\x0D\x2A\x2A\x2A\x2A\x89\x7D\xFC\x8B\x83\x5C\x03\x00\x00"
+			}
+			
+			"CGrabController::Simulate" // IMotionEvent::simresult_e Simulate( IPhysicsMotionController *pController, IPhysicsObject *pObject, float deltaTime, Vector &linear, AngularImpulse &angular )
+			{
+				"windows"	"\x55\x8B\xEC\x83\xEC\x48\x53\x8B\xD9\xB9\x0C\x00\x00\x00"
+				"linux"		"\x55\x89\xE5\x57\x56\x53\x81\xEC\x8C\x00\x00\x00\x8B\x7D\x08\x8B\x55\x10"
+			}
+		}
+	}
+
+	"#default"
+	{
+		"Functions"
+		{
+			"CBaseEntity::GetMaxHealth"
+			{
+				"offset"	"CBaseEntity::GetMaxHealth"
+				"hooktype"	"entity"
+				"callconv"	"thiscall"
+				"return"	"int"
+				"this"		"entity"
+			}
+			
+			"CBaseCombatWeapon::GetBulletSpread"
+			{
+				"offset"	"CBaseCombatWeapon::GetBulletSpread"
+				"hooktype"	"entity"
+				"callconv"	"thiscall"
+				"return"	"vector"
+				"this"		"entity"
+				"arguments"
+				{
+					"WeaponProficiency"
+					{
+						"type"	"int"
+					}
+				}
+			}
+			
+			"CBaseCombatWeapon::GetBulletSpreadWithProf"
+			{
+				"offset"	"CBaseCombatWeapon::GetBulletSpreadWithProf"
+				"hooktype"	"entity"
+				"callconv"	"thiscall"
+				"return"	"vector"
+				"this"		"entity"
+				"arguments"
+				{
+					"WeaponProficiency"
+					{
+						"type"	"int"
+					}
+				}
+			}
+			
+			"CBaseCombatWeapon::GetFireRate"
+			{
+				"offset"	"CBaseCombatWeapon::GetFireRate"
+				"hooktype"	"entity"
+				"callconv"	"thiscall"
+				"return"	"float"
+				"this"		"entity"
+			}
+			
+			"CBaseCombatWeapon::IsPredicted"
+			{
+				"offset"	"CBaseCombatWeapon::IsPredicted"
+				"hooktype"	"entity"
+				"callconv"	"thiscall"
+				"return"	"bool"
+				"this"		"entity"
+			}
+			
+			"CGrabController::Simulate"
+			{
+				"signature"	"CGrabController::Simulate"
+				"callconv"	"thiscall"
+				//enum simresult_e { SIM_NOTHING = 0, SIM_LOCAL_ACCELERATION, SIM_LOCAL_FORCE, SIM_GLOBAL_ACCELERATION, SIM_GLOBAL_FORCE };
+				"return"	"int"
+				"this"		"ignore"
+				"arguments"
+				{
+					"pController"
+					{
+						"type"	"object"
+						"size"	"20"
+					}
+					
+					"pObject"
+					{
+						"type"	"object"
+						"size"	"20"
+					}
+					
+					"deltaTime"
+					{
+						"type"	"float"
+					}
+					
+					"linear"
+					{
+						"type"	"vectorptr"
+					}
+					
+					"angular"
+					{
+						"type"	"vectorptr"
+					}
+				}
+			}
+		}
+	}
+}
