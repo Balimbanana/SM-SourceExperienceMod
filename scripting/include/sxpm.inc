@@ -8,22 +8,22 @@
  */
 enum SXPMStat
 {
-	Strength = 1,				/**< Strength */
-	Armor = 2,					/**< Superior Armor */
-	HealthRegen = 3,			/**< Health Regen */
-	NanoArmor = 4,				/**< Nano Armor */
-	AmmoRegen = 5,				/**< Ammo Regen */
-	AntiGravity = 6,			/**< Anti-Gravity */
-	Speed = 7,					/**< Speed/Awareness */
-	Awareness = 7,				/**< Speed/Awareness */
-	TeamPower = 8,				/**< TeamPower */
-	Block = 9,					/**< Block */
-	Level = 10,					/**< Level */
-	EXP = 11,					/**< XP */
-	SkillPoints = 12,			/**< Skill Points */
-	ReloadSpeed = 13,			/**< Reload Speed */
-	Vampire = 14,				/**< Vampire */
-	SummonMastery = 15,			/**< Summon Mastery */
+	SXPM_Strength = 1,				/**< Strength */
+	SXPM_Armor = 2,					/**< Superior Armor */
+	SXPM_HealthRegen = 3,			/**< Health Regen */
+	SXPM_NanoArmor = 4,				/**< Nano Armor */
+	SXPM_AmmoRegen = 5,				/**< Ammo Regen */
+	SXPM_AntiGravity = 6,			/**< Anti-Gravity */
+	SXPM_Speed = 7,					/**< Speed/Awareness */
+	SXPM_Awareness = 7,				/**< Speed/Awareness */
+	SXPM_TeamPower = 8,				/**< TeamPower */
+	SXPM_Block = 9,					/**< Block */
+	SXPM_Level = 10,					/**< Level */
+	SXPM_EXP = 11,					/**< XP */
+	SXPM_SkillPoints = 12,			/**< Skill Points */
+	SXPM_ReloadSpeed = 13,			/**< Reload Speed */
+	SXPM_Vampire = 14,				/**< Vampire */
+	SXPM_SummonMastery = 15,			/**< Summon Mastery */
 	/* --- */
 };
 
@@ -55,12 +55,12 @@ native int SXPM_Stats(int client, SXPMStat qstat);
 //------------------------------------------------------
 // Progress bar rendering
 //------------------------------------------------------
-int g_BeamSprite = -1;
-int g_pProgressBar[128] = {-1, ...};
-stock void Client_ProgressBar(int pPlayer, float flTime = 4.0, float flBarLength = 30.0, float flBarWidth = 0.3, int Color[4] = {0, 255, 0, 255}, float flDistFromPlayer = 20.0)
+int g_SXPMBeamSprite = -1;
+int g_pSXPMProgressBar[128] = {-1, ...};
+stock void SXPM_Client_ProgressBar(int pPlayer, float flTime = 4.0, float flBarLength = 30.0, float flBarWidth = 0.3, int Color[4] = {0, 255, 0, 255}, float flDistFromPlayer = 20.0)
 {
 	// Always remove previous bar if there is one
-	Client_RemoveProgressBar(pPlayer);
+	SXPM_Client_RemoveProgressBar(pPlayer);
 	
 	static float vecEyePosition[3];
 	
@@ -68,18 +68,18 @@ stock void Client_ProgressBar(int pPlayer, float flTime = 4.0, float flBarLength
 	{
 		GetClientEyePosition(pPlayer, vecEyePosition);
 		
-		int iBeam = SetupBeamBar(flBarWidth, vecEyePosition, Color, 4);
+		int iBeam = SXPM_SetupBeamBar(flBarWidth, vecEyePosition, Color, 4);
 		if (IsValidEntity(iBeam))
 		{
-			int iBarBox = SetupBeamBar(flBarWidth*1.2, vecEyePosition, {55, 55, 55, 40}, 2);
+			int iBarBox = SXPM_SetupBeamBar(flBarWidth*1.2, vecEyePosition, {55, 55, 55, 40}, 2);
 			if (IsValidEntity(iBarBox))
 			{
 				SetEntPropEnt(iBeam, Prop_Data, "m_hEffectEntity", iBarBox);
 				SetEntPropEnt(iBarBox, Prop_Data, "m_hEffectEntity", pPlayer);
-				SDKHookEx(iBarBox, SDKHook_SetTransmit, Transmit_ProgressBarBox);
+				SDKHookEx(iBarBox, SDKHook_SetTransmit, SXPM_Transmit_ProgressBarBox);
 			}
 			
-			g_pProgressBar[pPlayer] = iBeam;
+			g_pSXPMProgressBar[pPlayer] = iBeam;
 			static float vecStats[3];
 			vecStats[0] = flTime;
 			vecStats[1] = flBarLength;
@@ -87,14 +87,14 @@ stock void Client_ProgressBar(int pPlayer, float flTime = 4.0, float flBarLength
 			SetEntPropVector(iBeam, Prop_Data, "m_vecMaxs", vecStats);
 			SetEntPropFloat(iBeam, Prop_Data, "m_flLocalTime", GetGameTime() + flTime);
 			
-			SDKHookEx(iBeam, SDKHook_SetTransmit, Transmit_ProgressBar);
+			SDKHookEx(iBeam, SDKHook_SetTransmit, SXPM_Transmit_ProgressBar);
 		}
 	}
 	
 	return;
 }
 
-stock int SetupBeamBar(float flBarWidth, float vecInitOrigin[3], int Color[4], int iRenderMode)
+stock int SXPM_SetupBeamBar(float flBarWidth, float vecInitOrigin[3], int Color[4], int iRenderMode)
 {
 	static int iBeam;
 	iBeam = CreateEntityByName("beam");
@@ -102,14 +102,14 @@ stock int SetupBeamBar(float flBarWidth, float vecInitOrigin[3], int Color[4], i
 	{
 		DispatchKeyValue(iBeam, "model", "sprites/laser.vmt");
 		DispatchKeyValue(iBeam, "texture", "sprites/halo01.vmt");
-		if (g_BeamSprite == -1)
+		if (g_SXPMBeamSprite == -1)
 		{
-			g_BeamSprite = PrecacheModel("sprites/laserbeam.vmt");
+			g_SXPMBeamSprite = PrecacheModel("sprites/laserbeam.vmt");
 			// sprites/laser.vmt
 			
-			if (g_BeamSprite == -1) g_BeamSprite = 0;
+			if (g_SXPMBeamSprite == -1) g_SXPMBeamSprite = 0;
 		}
-		if (g_BeamSprite > 0) SetEntProp(iBeam, Prop_Data, "m_nModelIndex", g_BeamSprite);
+		if (g_SXPMBeamSprite > 0) SetEntProp(iBeam, Prop_Data, "m_nModelIndex", g_SXPMBeamSprite);
 		SetEntProp(iBeam, Prop_Data, "m_nHaloIndex", 0);
 		TeleportEntity(iBeam, vecInitOrigin, NULL_VECTOR, NULL_VECTOR);
 		DispatchSpawn(iBeam);
@@ -132,7 +132,7 @@ stock int SetupBeamBar(float flBarWidth, float vecInitOrigin[3], int Color[4], i
 	return iBeam;
 }
 
-stock void Client_RemoveProgressBar(int iPlayer)
+stock void SXPM_Client_RemoveProgressBar(int iPlayer)
 {
 	int iEntity = -1;
 	while ((iEntity = FindEntityByClassname(iEntity, "beam")) != -1)
@@ -145,29 +145,29 @@ stock void Client_RemoveProgressBar(int iPlayer)
 				{
 					//PrintToServer("RemoveBar %i", iEntity);
 					AcceptEntityInput(iEntity, "kill");
-					if (g_pProgressBar[iPlayer] == iEntity)
-						g_pProgressBar[iPlayer] = -1;
+					if (g_pSXPMProgressBar[iPlayer] == iEntity)
+						g_pSXPMProgressBar[iPlayer] = -1;
 				}
 			}
 		}
 	}
 	
-	if (IsValidEntity(g_pProgressBar[iPlayer]))
+	if (IsValidEntity(g_pSXPMProgressBar[iPlayer]))
 	{
 		char szClassname[8] = "";
-		if (HasEntProp(g_pProgressBar[iPlayer], Prop_Data, "m_iClassname"))
+		if (HasEntProp(g_pSXPMProgressBar[iPlayer], Prop_Data, "m_iClassname"))
 		{
-			GetEntPropString(g_pProgressBar[iPlayer], Prop_Data, "m_iClassname", szClassname, sizeof(szClassname));
+			GetEntPropString(g_pSXPMProgressBar[iPlayer], Prop_Data, "m_iClassname", szClassname, sizeof(szClassname));
 			if (StrEqual(szClassname, "beam", false))
-				AcceptEntityInput(g_pProgressBar[iPlayer], "kill");
+				AcceptEntityInput(g_pSXPMProgressBar[iPlayer], "kill");
 		}
 	}
-	g_pProgressBar[iPlayer] = -1;
+	g_pSXPMProgressBar[iPlayer] = -1;
 	
 	return;
 }
 
-public Action Transmit_ProgressBarBox(int entity, int client)
+public Action SXPM_Transmit_ProgressBarBox(int entity, int client)
 {
 	if (GetEntPropEnt(entity, Prop_Data, "m_hEffectEntity") == client)
 	{
@@ -176,11 +176,11 @@ public Action Transmit_ProgressBarBox(int entity, int client)
 	return Plugin_Handled;
 }
 
-public Action Transmit_ProgressBar(int entity, int client)
+public Action SXPM_Transmit_ProgressBar(int entity, int client)
 {
 	if (IsValidEntity(client))
 	{
-		if (g_pProgressBar[client] == entity)
+		if (g_pSXPMProgressBar[client] == entity)
 		{
 			static int iBarBox;
 			static float vecStats[3];
