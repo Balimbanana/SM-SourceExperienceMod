@@ -161,6 +161,13 @@
 				"windows"	"\x55\x89\xE5\x57\x56\x53\x83\xEC\x3C\x8B\x45\x14\x8B\x5D\x08\xF3\x0F\x10\x55\x10"
 				"linux"		"\x55\x89\xE5\x57\x56\x53\x83\xEC\x3C\x8B\x45\x14\x8B\x5D\x08\xF3\x0F\x10\x55\x10"
 			}
+			
+			"CTFPlayer::GetMaxHealthForBuffing" // int CTFPlayer::GetMaxHealthForBuffing() const
+			{
+				"library"	"server"
+				"windows"	"\x55\x89\xE5\x57\x56\x53\x83\xEC\x6C\x8B\x7D\x08\x8B\x87\xCC\x22\x00\x00"
+				"linux"		"\x55\x89\xE5\x57\x56\x53\x83\xEC\x6C\x8B\x7D\x08\x8B\x87\xCC\x22\x00\x00"
+			}
 		}
 	}
 
@@ -171,6 +178,15 @@
 			"CBaseEntity::GetMaxHealth"
 			{
 				"offset"	"CBaseEntity::GetMaxHealth"
+				"hooktype"	"entity"
+				"callconv"	"thiscall"
+				"return"	"int"
+				"this"		"entity"
+			}
+			
+			"CTFPlayer::GetMaxHealthForBuffing"
+			{
+				"signature"	"CTFPlayer::GetMaxHealthForBuffing"
 				"hooktype"	"entity"
 				"callconv"	"thiscall"
 				"return"	"int"
