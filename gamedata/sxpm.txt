@@ -71,7 +71,7 @@
 		}
 	}
 
-	"tf_coop_lambda"
+	"fc"
 	{
 		"Offsets"
 		{
@@ -167,6 +167,18 @@
 				"library"	"server"
 				"windows"	"\x55\x89\xE5\x57\x56\x53\x83\xEC\x6C\x8B\x7D\x08\x8B\x87\xCC\x22\x00\x00"
 				"linux"		"\x55\x89\xE5\x57\x56\x53\x83\xEC\x6C\x8B\x7D\x08\x8B\x87\xCC\x22\x00\x00"
+			}
+		}
+	}
+
+	"cure"
+	{
+		"Offsets"
+		{
+			"CBaseEntity::GetMaxHealth" // int CBaseEntity::GetMaxHealth()
+			{
+				"windows"	"118"
+				"linux"		"119"
 			}
 		}
 	}
